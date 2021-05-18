@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="106e9d5f-3ad7-4061-89a6-fccd019bc6a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/COMP_155_Files.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/.idea/Assignments.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/In_Class_Practice/Week_1/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/In_Class_Practice/Week_1/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/In_Class_Practice/Week_1/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/In_Class_Practice/Week_1/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -317,8 +313,16 @@
       <option name="presentableId" value="Default" />
       <updated>1621300884365</updated>
       <workItem from="1621300886830" duration="461000" />
-      <workItem from="1621301385598" duration="1246000" />
+      <workItem from="1621301385598" duration="2653000" />
     </task>
+    <task id="LOCAL-00001" summary="Test.java - Finally getting it to work through terminal for class 1">
+      <created>1621302907660</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1621302907660</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,5 +341,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Test.java - Finally getting it to work through terminal for class 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test.java - Finally getting it to work through terminal for class 1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/COMP_155_Files$Test.ic" NAME="Test Coverage Results" MODIFIED="1621302769512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

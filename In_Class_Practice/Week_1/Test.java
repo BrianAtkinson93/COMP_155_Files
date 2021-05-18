@@ -10,10 +10,20 @@ class Test {
         xs[1] = temp;
     }
 
-    public static void printArray(int[] array){
-        for(int i = 0; i < array.length; i++){
+    public static void testTypes() {
+        if (3 < 4 && 0 < 1) {
+            print("Bingo!");
+        }
+    }
+
+    public static void print(int[] array) {
+        for (int i = 0; i < array.length; i++) {
             System.out.println(array[i]);
         }
+    }
+
+    public static void print(String msg) {
+        System.out.println(msg);
     }
 
     public static void main(String[] args) {
@@ -27,10 +37,13 @@ class Test {
 
         int[] xs;
         xs = new int[]{3, 2};
-        printArray(xs);
-        //print("BEFORE")
-        //print(xs);
-        //print("AFTER")
+        print("BEFORE");
+        print(xs);
+        swap(xs);
+        print("AFTER");
+        print(xs);
+
+        testTypes();
     }
 
 }
