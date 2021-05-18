@@ -44,6 +44,10 @@ class Test {
         print(xs);
 
         testTypes();
+
+        Test t;
+        t = new Test();
+        print(t.toString());
     }
 
 }
