@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="106e9d5f-3ad7-4061-89a6-fccd019bc6a1" name="Default Changelist" comment="updated folders">
+    <list default="true" id="106e9d5f-3ad7-4061-89a6-fccd019bc6a1" name="Default Changelist" comment="Practice_8 - formatting">
+      <change afterPath="$PROJECT_DIR$/Labs/Lab_1/Math.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab_1/Math.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab_1/MathTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab_1/MathTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/COMP_155_Files.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/COMP_155_Files.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/.idea/Assignments.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Practice/Practice_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java_Practice/Practice_8.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -355,7 +351,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621320760080</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Practice_8 - formatting">
+      <created>1621321181787</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1621321181787</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,7 +388,8 @@
     <MESSAGE value="Practice_5 - Converting Strings to numbers" />
     <MESSAGE value="Practice_7 - Rounding random number" />
     <MESSAGE value="updated folders" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated folders" />
+    <MESSAGE value="Practice_8 - formatting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practice_8 - formatting" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/COMP_155_Files$Test.ic" NAME="Test Coverage Results" MODIFIED="1621302769512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
