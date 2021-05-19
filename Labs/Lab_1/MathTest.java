@@ -3,6 +3,7 @@ class MathTest {
     public static void print(float result) {
 
         //INSERT YOUR CODE HERE
+        // This prints out the "results" to the user
         System.out.println("Result : " + result);
 
     }
