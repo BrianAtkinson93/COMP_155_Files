@@ -4,6 +4,7 @@ class Math {
     public static float add(float first, float second) {
 
         //INSERT YOUR CODE
+        // Return the first float plus the second float, super simple
         return first + second;
 
     }
@@ -25,6 +26,7 @@ class Math {
     public static float multiply(float first, float second) {
 
         //INSERT YOUR CODE
+        // Return the first float multiplied by the second float, super simple again
         return (first * second);
     }
 
