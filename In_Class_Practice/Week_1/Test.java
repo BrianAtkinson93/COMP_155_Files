@@ -11,14 +11,12 @@ class Test {
     }
 
     public static void testTypes() {
-        if (3 < 4 && 0 < 1) {
-            print("Bingo!");
-        }
+        print("Bingo!");
     }
 
     public static void print(int[] array) {
-        for (int i = 0; i < array.length; i++) {
-            System.out.println(array[i]);
+        for (int j : array) {
+            System.out.println(j);
         }
     }
 

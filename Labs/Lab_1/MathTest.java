@@ -1,11 +1,9 @@
-import static java.lang.Math.*;
-
 class MathTest {
 
     public static void print(float result) {
 
         //INSERT YOUR CODE HERE
-        System.out.println(result);
+        System.out.println("Result : " + result);
 
     }
 
