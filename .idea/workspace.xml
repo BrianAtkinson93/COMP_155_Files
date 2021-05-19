@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="106e9d5f-3ad7-4061-89a6-fccd019bc6a1" name="Default Changelist" comment="Lab 1 - Completed and Runs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/Lab_1/Math.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab_1/Math.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +159,7 @@
       <updated>1621300884365</updated>
       <workItem from="1621300886830" duration="461000" />
       <workItem from="1621301385598" duration="3005000" />
-      <workItem from="1621406205350" duration="3607000" />
+      <workItem from="1621406205350" duration="5432000" />
     </task>
     <task id="LOCAL-00001" summary="Test.java - Finally getting it to work through terminal for class 1">
       <created>1621302907660</created>
@@ -239,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621409414611</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Lab 1 - Completed and Runs">
+      <created>1621409865450</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1621409865450</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

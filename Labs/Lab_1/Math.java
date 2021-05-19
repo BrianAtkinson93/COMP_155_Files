@@ -16,8 +16,8 @@ class Math {
         float sum = 0;
         // initiating for loop, setting the counter to 0, while i is less than the length of the argument
         // complete the for loop, incrementing the counter by 1 after ever iteration.
-        for (int i = 0; i < arr.length; i++) {
-            sum = (sum + arr[i]);
+        for (float v : arr) {
+            sum = (sum + v);
         }
         return sum;
     }
@@ -38,8 +38,8 @@ class Math {
         float sum = 1;
         // initiating for loop, setting the counter to 0, while i is less than the length of the argument
         // complete the for loop, incrementing the counter by 1 after ever iteration.
-        for (int i = 0; i < arr.length; i++) {
-            sum = (sum * arr[i]);
+        for (float v : arr) {
+            sum = (sum * v);
         }
         return sum;
     }
