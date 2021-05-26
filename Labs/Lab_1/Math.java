@@ -13,10 +13,8 @@ class Math {
 
         //INSERT YOUR CODE
         float sum = 0;
-        // initiating for loop, setting the counter to 0, while i is less than the length of the argument
-        // complete the for loop, incrementing the counter by 1 after ever iteration.
-        for (int i = 0; i < arr.length; i++) {
-            sum = (sum + arr[i]);
+        for (float num : arr) {
+            sum = sum + num;
         }
         return sum;
     }
@@ -25,19 +23,16 @@ class Math {
     public static float multiply(float first, float second) {
 
         //INSERT YOUR CODE
-        return (first * second);
+        return first * second;
     }
 
     //computes the mulpication of array
     public static float multiply(float[] arr) {
 
         //INSERT YOUR CODE
-        //Setting the sum = 1 because we cannot multiply anything by 0 without it being 0
         float sum = 1;
-        // initiating for loop, setting the counter to 0, while i is less than the length of the argument
-        // complete the for loop, incrementing the counter by 1 after ever iteration.
-        for (int i = 0; i < arr.length; i++) {
-            sum = (sum * arr[i]);
+        for (float num : arr) {
+            sum = sum * num;
         }
         return sum;
     }
