@@ -5,7 +5,7 @@ public class LabTest {
 
         long start, stop, elapsed;
         start = System.nanoTime();
-        long loopSize = 100_000;
+        long loopSize = 50_000;
         for (int i = 0; i < loopSize; i++) {
             s2 += 1;
         }
