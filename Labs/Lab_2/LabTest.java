@@ -5,7 +5,7 @@ public class LabTest {
 
         long start, stop, elapsed;
         start = System.nanoTime();
-        long loopSize = 100_000_000;
+        long loopSize = 50_000;
         for (int i = 0; i < loopSize; i++) {
             s2 += 1;
         }
@@ -44,7 +44,7 @@ public class LabTest {
 // TEST 2 ----------------------             Run 1           Run 2         Run 3         Run 4         Run 5        Run 6
 // 50k    (AVERAGE : 413_450(ns))        - 372500(ns) - 626900(ns) - 356100(ns) - 415400(ns) - 355500(ns) - 354300(ns)
 // 100k   (AVERAGE : 217_750.33..(ns))   - 206600(ns) - 204800(ns) - 205400(ns) - 282101(ns) - 203700(ns) - 203901(ns)
-// 500k   (AVERAGE : 1_763_066.5(ns) )   - 1820300(ns) - 2011099(ns) - 1823100(ns) - 1682099(ns) - 1598001(ns) - 1643800(ns)
+// 500k   (AVERAGE : 1_763_066.5(ns))    - 1820300(ns) - 2011099(ns) - 1823100(ns) - 1682099(ns) - 1598001(ns) - 1643800(ns)
 // 1Mil   (AVERAGE : 1_808_049.667(ns))  - 1676400(ns) - 1948000(ns) - 1895500(ns) - 1779700(ns) - 1747899(ns) - 1800799(ns)
 // 10Mil  (AVERAGE : 5_158_900.3..(ns))  - 5049800(ns) - 5157101(ns) - 5022500(ns) - 5113801(ns) - 5642100(ns) - 4968100(ns)
 // 100Mil (AVERAGE : 37_835_883 (ns))    - 37658701(ns) - 37518499(ns) - 38025999(ns) - 38345100(ns) - 38096299(ns) - 37370700(ns)
