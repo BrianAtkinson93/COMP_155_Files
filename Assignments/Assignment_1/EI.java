@@ -17,9 +17,13 @@ public class EI extends Deduction {
 		
 		double income = employee.getIncome();
 		//INSERT YOUR CODE HERE - Using the specification given on EI
-		
+		double premiums;
+		double eiRate = 0.0158;
+		double maximum = 856.36;
 
-		return 0.0;
+		premiums = Math.min(maximum, (income * eiRate));
+
+		return premiums;
 	}
 	
 	public double getAmount() {
