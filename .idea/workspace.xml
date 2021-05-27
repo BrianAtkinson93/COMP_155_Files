@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="106e9d5f-3ad7-4061-89a6-fccd019bc6a1" name="Default Changelist" comment="Assignment 1 - Finished adding to folder and started on CPP">
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1/CPP.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_1/CPP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1/EI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_1/EI.java" afterDir="false" />
-    </list>
+    <list default="true" id="106e9d5f-3ad7-4061-89a6-fccd019bc6a1" name="Default Changelist" comment="Assignment 1 - CPP, EI, and Health Premiums" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -287,7 +284,21 @@
       <option name="project" value="LOCAL" />
       <updated>1622147577258</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Assignment 1 - CPP, EI, and Health Premiums">
+      <created>1622147842683</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1622147842683</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Assignment 1 - CPP, EI, and Health Premiums">
+      <created>1622147878397</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1622147878397</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,7 +330,8 @@
     <MESSAGE value="updated folders" />
     <MESSAGE value="Lab 1 - Completed and Runs" />
     <MESSAGE value="Assignment 1 - Finished adding to folder and started on CPP" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assignment 1 - Finished adding to folder and started on CPP" />
+    <MESSAGE value="Assignment 1 - CPP, EI, and Health Premiums" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignment 1 - CPP, EI, and Health Premiums" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/COMP_155_Files$Test.ic" NAME="Test Coverage Results" MODIFIED="1621302769512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
