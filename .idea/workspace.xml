@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="106e9d5f-3ad7-4061-89a6-fccd019bc6a1" name="Default Changelist" comment="Assignment 1 - CPP, EI, and Health Premiums" />
+    <list default="true" id="106e9d5f-3ad7-4061-89a6-fccd019bc6a1" name="Default Changelist" comment="push">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1/GovernmentTax.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_1/GovernmentTax.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -140,6 +143,17 @@
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main" />
       <module name="COMP_155_Files" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -298,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622147878397</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="push">
+      <created>1622148192883</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1622148192883</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,7 +352,8 @@
     <MESSAGE value="Lab 1 - Completed and Runs" />
     <MESSAGE value="Assignment 1 - Finished adding to folder and started on CPP" />
     <MESSAGE value="Assignment 1 - CPP, EI, and Health Premiums" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assignment 1 - CPP, EI, and Health Premiums" />
+    <MESSAGE value="push" />
+    <option name="LAST_COMMIT_MESSAGE" value="push" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/COMP_155_Files$Test.ic" NAME="Test Coverage Results" MODIFIED="1621302769512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
