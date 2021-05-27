@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="106e9d5f-3ad7-4061-89a6-fccd019bc6a1" name="Default Changelist" comment="Lab 1 - Completed and Runs">
+    <list default="true" id="106e9d5f-3ad7-4061-89a6-fccd019bc6a1" name="Default Changelist" comment="Lab 2 - Completed - Needs explanation">
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_1/CPP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_1/CSVReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_1/DataScience.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_1/Deduction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_1/EI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_1/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_1/GovernmentTax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_1/HealthPremium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_1/OverallTax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_1/QualityAssurance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_1/TaxCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_1/TaxTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_1/Utility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_1/expectedOutput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_1/salaries.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab_1/Math.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab_1/MathTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/COMP_155_Files.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/COMP_155_Files.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Labs/Lab_2/LabTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab_2/LabTest.java" afterDir="false" />
     </list>
@@ -147,15 +165,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -179,7 +195,8 @@
       <workItem from="1621300886830" duration="461000" />
       <workItem from="1621301385598" duration="3005000" />
       <workItem from="1621406205350" duration="20729000" />
-      <workItem from="1621987411541" duration="4256000" />
+      <workItem from="1621987411541" duration="11119000" />
+      <workItem from="1622144505453" duration="2767000" />
     </task>
     <task id="LOCAL-00001" summary="Test.java - Finally getting it to work through terminal for class 1">
       <created>1621302907660</created>
@@ -286,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621994276604</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Lab 2 - Completed - Needs explanation">
+      <created>1621994819033</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1621994819033</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,7 +341,8 @@
     <MESSAGE value="Practice_7 - Rounding random number" />
     <MESSAGE value="updated folders" />
     <MESSAGE value="Lab 1 - Completed and Runs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab 1 - Completed and Runs" />
+    <MESSAGE value="Lab 2 - Completed - Needs explanation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab 2 - Completed - Needs explanation" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/COMP_155_Files$Test.ic" NAME="Test Coverage Results" MODIFIED="1621302769512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

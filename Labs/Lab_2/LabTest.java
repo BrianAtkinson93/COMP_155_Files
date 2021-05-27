@@ -50,4 +50,5 @@ public class LabTest {
 // 100Mil (AVERAGE : 37_835_883 (ns))    - 37658701(ns) - 37518499(ns) - 38025999(ns) - 38345100(ns) - 38096299(ns) - 37370700(ns)
 
 // ------------ INTERPRETATION OF RESULTS ------------
-//
+// Loop one is based on a reference type, while loop two is primitive.
+// this then creates a quicker loop because it doesnt need to refer to another memory spot every iteration of the loop.
