@@ -55,7 +55,7 @@ public class GovernmentTax extends Deduction {
 
             HashMap<Integer, TaxCategory> categories = new HashMap<Integer, TaxCategory>();
             try {
-                //INSERT YOUR CODE HERE - Using the specification given on Federal
+                //INSERT YOUR CODE HERE
                 //You will need to study how Manitoba is being implemented
                 TaxCategory cat1 = new TaxCategory(10, 0, 131220);
                 categories.put(1, cat1);
@@ -79,7 +79,7 @@ public class GovernmentTax extends Deduction {
 
             HashMap<Integer, TaxCategory> categories = new HashMap<Integer, TaxCategory>();
             try {
-                //INSERT YOUR CODE HERE - Using the specification given on Federal
+                //INSERT YOUR CODE HERE
                 //You will need to study how Manitoba is being implemented
 
                 TaxCategory cat1 = new TaxCategory(5.06, 0, 42184);
@@ -108,7 +108,7 @@ public class GovernmentTax extends Deduction {
 
             HashMap<Integer, TaxCategory> categories = new HashMap<Integer, TaxCategory>();
             try {
-                //INSERT YOUR CODE HERE - Using the specification given on Federal
+                //INSERT YOUR CODE HERE
                 //You will need to study how Manitoba is being implemented
                 TaxCategory cat1 = new TaxCategory(9.68, 0, 43835);
                 categories.put(1, cat1);
@@ -132,7 +132,7 @@ public class GovernmentTax extends Deduction {
 
             HashMap<Integer, TaxCategory> categories = new HashMap<Integer, TaxCategory>();
             try {
-                //INSERT YOUR CODE HERE - Using the specification given on Federal
+                //INSERT YOUR CODE HERE
                 //You will need to study how Manitoba is being implemented
                 TaxCategory cat1 = new TaxCategory(8.79, 0, 29590);
                 categories.put(1, cat1);
@@ -157,7 +157,7 @@ public class GovernmentTax extends Deduction {
 
             HashMap<Integer, TaxCategory> categories = new HashMap<Integer, TaxCategory>();
             try {
-                //INSERT YOUR CODE HERE - Using the specification given on Federal
+                //INSERT YOUR CODE HERE
                 //You will need to study how Manitoba is being implemented
                 TaxCategory cat1 = new TaxCategory(5.05, 0, 44740);
                 categories.put(1, cat1);
@@ -182,7 +182,7 @@ public class GovernmentTax extends Deduction {
 
             HashMap<Integer, TaxCategory> categories = new HashMap<Integer, TaxCategory>();
             try {
-                //INSERT YOUR CODE HERE - Using the specification given on Federal
+                //INSERT YOUR CODE HERE
                 //You will need to study how Manitoba is being implemented
                 TaxCategory cat1 = new TaxCategory(10.5, 0, 45_677);
                 categories.put(1, cat1);
@@ -202,7 +202,7 @@ public class GovernmentTax extends Deduction {
 
             HashMap<Integer, TaxCategory> categories = new HashMap<Integer, TaxCategory>();
             try {
-                //INSERT YOUR CODE HERE - Using the specification given on Federal
+                //INSERT YOUR CODE HERE
                 //You will need to study how Manitoba is being implemented
                 TaxCategory cat1 = new TaxCategory(15, 0, 49020.00);
                 categories.put(1, cat1);
@@ -241,8 +241,7 @@ public class GovernmentTax extends Deduction {
 
         double income = employee.getIncome();
         //INSERT YOUR CODE HERE
-        double deductions = 0.0;
-        deductions + federal(income);
+
 
         return 0.0;
     }
