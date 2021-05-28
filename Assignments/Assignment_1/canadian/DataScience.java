@@ -15,13 +15,15 @@ import java.util.*;
 public class DataScience {
     private static Employee leastPaidEmployee = null;
     private static Employee highestPaidEmployee = null;
+
     //argument the map of employees for the target province
     public static Employee leastPaidEmployee(String province, Map<Integer, Employee> map) {
 
         //INSERT YOUR CODE HERE - study how allEmployees(...) is being implemented
+        Map<Integer, Employee> allEmployees = allEmployeesOf(province, map); // This is the line i dont understand
         int i = 0;
-        for (Map.Entry<Integer, Employee> entry : map.entrySet()) {
-            Employee least = entry.getValue();
+        for (Map.Entry<Integer, Employee> employee : allEmployees.entrySet()) {
+            Employee least = employee.getValue();
             if (i == 0) {
                 leastPaidEmployee = least;
                 i++;
@@ -37,9 +39,12 @@ public class DataScience {
     //argument the map of employees for the target province
     public static Employee highestPaidEmployee(String province, Map<Integer, Employee> map) {
         //INSERT YOUR CODE HERE - see how allEmployees(...) is being implemented below. You may even reuse the code as well
+        Map<Integer, Employee> allEmployees = allEmployeesOf(province, map); // This is the line i dont understand
+        double largestIncome = 100_000_000;
         int i = 0;
-        for (Map.Entry<Integer, Employee> entry : map.entrySet()) {
-            Employee largest = entry.getValue();
+
+        for (Map.Entry<Integer, Employee> employee : allEmployees.entrySet()) {
+            Employee largest = employee.getValue();
             if (i == 0) {
                 highestPaidEmployee = largest;
                 i++;

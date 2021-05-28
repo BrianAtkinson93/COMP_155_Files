@@ -8,11 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/DataScience.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/DataScience.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/DataScience.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/DataScience.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/GovernmentTax$TaxUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/GovernmentTax$TaxUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/GovernmentTax.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/GovernmentTax.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/GovernmentTax.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/GovernmentTax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/HealthPremium.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/HealthPremium.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/HealthPremium.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/HealthPremium.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,17 +150,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.main" />
@@ -186,6 +170,7 @@
       <workItem from="1621301385598" duration="3005000" />
       <workItem from="1621406205350" duration="20729000" />
       <workItem from="1621987411541" duration="4256000" />
+      <workItem from="1622227387704" duration="5052000" />
     </task>
     <task id="LOCAL-00001" summary="Test.java - Finally getting it to work through terminal for class 1">
       <created>1621302907660</created>
@@ -355,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622188358686</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="60.0points">
+      <created>1622190283394</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1622190283394</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
