@@ -6,9 +6,9 @@
 
 package canadian.payroll;
 
-public class HealthPremium extends Deduction {
+public class HealthPremium extends canadian.payroll.Deduction {
 
-    public HealthPremium(Employee employee) {
+    public HealthPremium(canadian.payroll.Employee employee) {
         super(employee);
     }
 
@@ -34,13 +34,13 @@ public class HealthPremium extends Deduction {
         else if (income <= cap2)
             premiums = Math.min(min1, (0.06 * (income - cap1)));
         else if (income <= cap3)
-            premiums = Math.min(min2, (0.06 * (income - cap2)));
+            premiums = Math.min(min2, (min1 + (0.06 * (income - cap2))));
         else if (income <= cap4)
-            premiums = Math.min(min3, (0.06 * (income - cap3)));
+            premiums = Math.min(min3, (min2 + (0.25 * (income - cap3))));
         else if (income <= cap5)
-            premiums = Math.min(min4, (0.06 * (income - cap4)));
+            premiums = Math.min(min4, (min3 + (0.25 * (income - cap4))));
         else if (income > cap5)
-            premiums = Math.min(min5, (0.06 * (income - cap5)));
+            premiums = Math.min(min5, (min4 + (0.25 * (income - cap5))));
 
 
         return premiums;

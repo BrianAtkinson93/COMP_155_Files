@@ -40,23 +40,16 @@ public class Utility {
 	public static String formatProvince( String provinceOrFederal ) {
 			
 		provinceOrFederal = provinceOrFederal.toLowerCase();
-		if( provinceOrFederal.equals( "ontario" ) || provinceOrFederal.equals( "on" ) ) {
-			return "ON";
-		} else if( provinceOrFederal.equals( "manitoba" ) || provinceOrFederal.equals( "mb" ) ) {
-			return "MB";
-		} else if( provinceOrFederal.equals( "British Columbia" ) || provinceOrFederal.equals( "bc" ) ) {
-			return "BC";
-		} else if( provinceOrFederal.equals( "new brunswick" ) || provinceOrFederal.equals( "nb" ) ) {
-			return "NB";
-		} else if( provinceOrFederal.equals( "alberta" ) || provinceOrFederal.equals( "ab" ) ) {
-			return "AB";
-		} else if( provinceOrFederal.equals( "saskatchewan" ) || provinceOrFederal.equals( "sk" ) ) {
-			return "SK";
-		} else if( provinceOrFederal.equals( "nova scotia" ) || provinceOrFederal.equals( "ns" ) ) {
-			return "NS";
-		} else {
-			return "federal";
-		}
+		return switch (provinceOrFederal) {
+			case "ontario", "on" -> "ON";
+			case "manitoba", "mb" -> "MB";
+			case "British Columbia", "bc" -> "BC";
+			case "new brunswick", "nb" -> "NB";
+			case "alberta", "ab" -> "AB";
+			case "saskatchewan", "sk" -> "SK";
+			case "nova scotia", "ns" -> "NS";
+			default -> "federal";
+		};
 	}
 
 	//displays on the screen one of the least paid employees by their province of residence 
@@ -137,29 +130,29 @@ public class Utility {
 		
 		//returns approriate grade points based on the test index
 		double x = 0.5714285714285714;
-		switch( index ) {
-			case 0 : return 5 * x;
-			case 1 : return 7 * x;
-			case 2 : return 5 * x;
-			case 3 : return 5 * x;
-			case 4 : return 5 * x;
-			case 5 : return 3 * x;
-			case 6 : return 5 * x;
-			case 7 : return 2.5;
-			case 8 : return 2.5;
-			case 9 : return 2.5;
-			case 10 : return 2.5;
-			case 11 : return 2.5;
-			case 12 : return 2.5;
-			case 13 : return 2.5;
-			case 14 : return 2.5;
-			case 15 : return 5;
-			case 16 : return 5;
-			case 17 : return 10;
-			case 18 : return 10;
-			case 19 : return 10;
-			default: return 0;
-		}
+		return switch (index) {
+			case 0 -> 5 * x;
+			case 1 -> 7 * x;
+			case 2 -> 5 * x;
+			case 3 -> 5 * x;
+			case 4 -> 5 * x;
+			case 5 -> 3 * x;
+			case 6 -> 5 * x;
+			case 7 -> 2.5;
+			case 8 -> 2.5;
+			case 9 -> 2.5;
+			case 10 -> 2.5;
+			case 11 -> 2.5;
+			case 12 -> 2.5;
+			case 13 -> 2.5;
+			case 14 -> 2.5;
+			case 15 -> 5;
+			case 16 -> 5;
+			case 17 -> 10;
+			case 18 -> 10;
+			case 19 -> 10;
+			default -> 0;
+		};
 	}
 
 	//this method computes students grade for this lab...
@@ -169,7 +162,7 @@ public class Utility {
 		double totalPoints = 0;
 		for( int i = 0; i < test.length; i++ ) {
 			double points = Math.round( points( i ) * 100.0 ) / 100.0;
-			if(test[i] == true ) {
+			if(test[i]) {
 				System.out.println("Test "+ i +" (Q"+(i+1)+") passed. [Alloted point(s): "+points+"]");
 				totalPoints += points( i );
 			} else {
