@@ -28,7 +28,9 @@ public class HealthPremium extends canadian.payroll.Deduction {
         double min5 = 900.00;
         double premiums = 0;
 
-
+        // This is a very basic if, then loop
+        // It checks "If" the income is below a certain threshold and then calculates it
+        // as per the instruction give on the lap hand-out
         if (income <= cap1)
             premiums = 0;
         else if (income <= cap2)
@@ -43,7 +45,7 @@ public class HealthPremium extends canadian.payroll.Deduction {
             premiums = Math.min(min5, (min4 + (0.25 * (income - cap5))));
 
 
-        return premiums;
+        return premiums; // returns the value of premiums
 
     }
 

@@ -159,6 +159,7 @@ public class GovernmentTax extends Deduction {
             try {
                 //INSERT YOUR CODE HERE
                 //You will need to study how Manitoba is being implemented
+                // This creates and sets the values of categories
                 TaxCategory cat1 = new TaxCategory(5.05, 0, 44_740);
                 categories.put(1, cat1);
                 TaxCategory cat2 = new TaxCategory(9.15, 44_740.01, 89_482);

@@ -20,7 +20,6 @@ public class DataScience {
 
         //INSERT YOUR CODE HERE - study how allEmployees(...) is being implemented
         int i = 0;
-        Map<Integer, Employee> empMap = new Hashtable<Integer, Employee>();
         for (Map.Entry<Integer, Employee> entry : map.entrySet()) {
             Employee least = entry.getValue();
             if (i == 0) {
@@ -29,7 +28,6 @@ public class DataScience {
             } else {
                 if (least.getIncome() < leastPaidEmployee.getIncome()) {
                     leastPaidEmployee = least;
-                    i++;
                 }
             }
         }
@@ -48,7 +46,6 @@ public class DataScience {
             } else {
                 if (largest.getIncome() > highestPaidEmployee.getIncome()) {
                     highestPaidEmployee = largest;
-                    i++;
                 }
             }
         }
@@ -60,11 +57,11 @@ public class DataScience {
     public static Map<Integer, Employee> allEmployeesOf(String province, Map<Integer, Employee> map) {
 
         province = Utility.formatProvince(province);
-        Map<Integer, Employee> empMap = new Hashtable<Integer, Employee>();
+        Map<Integer, Employee> empMap = new Hashtable<>();
         for (Map.Entry<Integer, Employee> entry : map.entrySet()) {
 
             int key = entry.getKey();
-            Employee value = (Employee) entry.getValue();
+            Employee value = entry.getValue();
             if (value.getProvince().equals(province)) {
                 empMap.put(key, value);
             }
