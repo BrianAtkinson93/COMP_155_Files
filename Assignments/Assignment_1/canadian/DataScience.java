@@ -13,22 +13,23 @@ import java.util.*;
 
 
 public class DataScience {
-
+    private static Employee leastPaidEmployee = null;
+    private static Employee highestPaidEmployee = null;
     //argument the map of employees for the target province
     public static Employee leastPaidEmployee(String province, Map<Integer, Employee> map) {
 
         //INSERT YOUR CODE HERE - study how allEmployees(...) is being implemented
+        int i = 0;
         Map<Integer, Employee> empMap = new Hashtable<Integer, Employee>();
-        Employee leastPaidEmployee = null;
-        int count = 0;
         for (Map.Entry<Integer, Employee> entry : map.entrySet()) {
-            Employee value = entry.getValue();
-            if (count == 0) {
-                leastPaidEmployee = value;
-                count++;
+            Employee least = entry.getValue();
+            if (i == 0) {
+                leastPaidEmployee = least;
+                i++;
             } else {
-                if (value.getIncome() < leastPaidEmployee.getIncome()) {
-                    leastPaidEmployee = value;
+                if (least.getIncome() < leastPaidEmployee.getIncome()) {
+                    leastPaidEmployee = least;
+                    i++;
                 }
             }
         }
@@ -37,18 +38,17 @@ public class DataScience {
 
     //argument the map of employees for the target province
     public static Employee highestPaidEmployee(String province, Map<Integer, Employee> map) {
-
         //INSERT YOUR CODE HERE - see how allEmployees(...) is being implemented below. You may even reuse the code as well
-        Employee highestPaidEmployee = null;
-        int count = 0;
+        int i = 0;
         for (Map.Entry<Integer, Employee> entry : map.entrySet()) {
-            Employee value = entry.getValue();
-            if (count == 0) {
-                highestPaidEmployee = value;
-                count++;
+            Employee largest = entry.getValue();
+            if (i == 0) {
+                highestPaidEmployee = largest;
+                i++;
             } else {
-                if (value.getIncome() > highestPaidEmployee.getIncome()) {
-                    highestPaidEmployee = value;
+                if (largest.getIncome() > highestPaidEmployee.getIncome()) {
+                    highestPaidEmployee = largest;
+                    i++;
                 }
             }
         }

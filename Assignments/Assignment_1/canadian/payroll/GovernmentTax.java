@@ -37,11 +37,11 @@ public class GovernmentTax extends Deduction {
 
             HashMap<Integer, TaxCategory> categories = new HashMap<Integer, TaxCategory>();
             try {
-                TaxCategory cat1 = new TaxCategory(10.8, 0, 33723);
+                TaxCategory cat1 = new TaxCategory(10.8, 0, 33_723);
                 categories.put(1, cat1);
-                TaxCategory cat2 = new TaxCategory(12.75, 33723.01, 72885);
+                TaxCategory cat2 = new TaxCategory(12.75, 33_723.01, 72_885);
                 categories.put(2, cat2);
-                TaxCategory cat3 = new TaxCategory(17.4, 72885.01, 10000000);
+                TaxCategory cat3 = new TaxCategory(17.4, 72_885.01, 10_000_000);
                 categories.put(3, cat3);
             } catch (Exception e) {
                 System.out.println("Something went wrong in Government.manitoba()");
@@ -57,15 +57,15 @@ public class GovernmentTax extends Deduction {
             try {
                 //INSERT YOUR CODE HERE
                 //You will need to study how Manitoba is being implemented
-                TaxCategory cat1 = new TaxCategory(10, 0, 131220);
+                TaxCategory cat1 = new TaxCategory(10, 0, 131_220);
                 categories.put(1, cat1);
-                TaxCategory cat2 = new TaxCategory(12, 131220.01, 157464);
+                TaxCategory cat2 = new TaxCategory(12, 131_220.01, 157_464);
                 categories.put(2, cat2);
-                TaxCategory cat3 = new TaxCategory(13, 157464.01, 209952);
+                TaxCategory cat3 = new TaxCategory(13, 157_464.01, 209_952);
                 categories.put(3, cat3);
-                TaxCategory cat4 = new TaxCategory(14, 209952.01, 314928);
+                TaxCategory cat4 = new TaxCategory(14, 209_952.01, 314_928);
                 categories.put(4, cat4);
-                TaxCategory cat5 = new TaxCategory(15, 314928.01, 10000000);
+                TaxCategory cat5 = new TaxCategory(15, 314_928.01, 10_000_000);
                 categories.put(5, cat5);
             } catch (Exception e) {
                 System.out.println("Something went wrong in Government.alberta()");
@@ -74,7 +74,7 @@ public class GovernmentTax extends Deduction {
             return categories;
         }
 
-        //declares the categories for the province of Quebec
+        //declares the categories for the province of British Columbia
         public static Map<Integer, TaxCategory> britishColumbia() {
 
             HashMap<Integer, TaxCategory> categories = new HashMap<Integer, TaxCategory>();
@@ -82,19 +82,19 @@ public class GovernmentTax extends Deduction {
                 //INSERT YOUR CODE HERE
                 //You will need to study how Manitoba is being implemented
 
-                TaxCategory cat1 = new TaxCategory(5.06, 0, 42184);
+                TaxCategory cat1 = new TaxCategory(5.06, 0, 42_184);
                 categories.put(1, cat1);
-                TaxCategory cat2 = new TaxCategory(7.7, 42184.01, 84369);
+                TaxCategory cat2 = new TaxCategory(7.7, 42_184.01, 84_369);
                 categories.put(2, cat2);
-                TaxCategory cat3 = new TaxCategory(10.5, 84369.01, 96866);
+                TaxCategory cat3 = new TaxCategory(10.5, 84_369.01, 96_866);
                 categories.put(3, cat3);
-                TaxCategory cat4 = new TaxCategory(12.29, 96866.01, 117623);
+                TaxCategory cat4 = new TaxCategory(12.29, 96_866.01, 117_623);
                 categories.put(4, cat4);
-                TaxCategory cat5 = new TaxCategory(14.7, 117623.01, 159483);
+                TaxCategory cat5 = new TaxCategory(14.7, 117_623.01, 159_483);
                 categories.put(5, cat5);
-                TaxCategory cat6 = new TaxCategory(16.8, 159483.01, 222420);
+                TaxCategory cat6 = new TaxCategory(16.8, 159_483.01, 222_420);
                 categories.put(6, cat6);
-                TaxCategory cat7 = new TaxCategory(20.5, 222420.01, 10000000);
+                TaxCategory cat7 = new TaxCategory(20.5, 222_420.01, 10_000_000);
                 categories.put(7, cat7);
             } catch (Exception e) {
                 System.out.println("Something went wrong in Government.britishColumbia()");
@@ -110,15 +110,15 @@ public class GovernmentTax extends Deduction {
             try {
                 //INSERT YOUR CODE HERE
                 //You will need to study how Manitoba is being implemented
-                TaxCategory cat1 = new TaxCategory(9.68, 0, 43835);
+                TaxCategory cat1 = new TaxCategory(9.68, 0, 43_835);
                 categories.put(1, cat1);
-                TaxCategory cat2 = new TaxCategory(14.82, 43835.01, 87671);
+                TaxCategory cat2 = new TaxCategory(14.82, 43_835.01, 87_671);
                 categories.put(2, cat2);
-                TaxCategory cat3 = new TaxCategory(16.52, 87671.01, 142534);
+                TaxCategory cat3 = new TaxCategory(16.52, 87_671.01, 142_534);
                 categories.put(3, cat3);
-                TaxCategory cat4 = new TaxCategory(17.84, 142534.01, 162383);
+                TaxCategory cat4 = new TaxCategory(17.84, 142_534.01, 162_383);
                 categories.put(4, cat4);
-                TaxCategory cat5 = new TaxCategory(20.3, 162383.01, 10000000);
+                TaxCategory cat5 = new TaxCategory(20.3, 162_383.01, 10_000_000);
                 categories.put(5, cat5);
             } catch (Exception e) {
                 System.out.println("Something went wrong in Government.newBrunswick()");
@@ -134,15 +134,15 @@ public class GovernmentTax extends Deduction {
             try {
                 //INSERT YOUR CODE HERE
                 //You will need to study how Manitoba is being implemented
-                TaxCategory cat1 = new TaxCategory(8.79, 0, 29590);
+                TaxCategory cat1 = new TaxCategory(8.79, 0, 29_590);
                 categories.put(1, cat1);
-                TaxCategory cat2 = new TaxCategory(14.95, 29590.01, 59180);
+                TaxCategory cat2 = new TaxCategory(14.95, 29_590.01, 59_180);
                 categories.put(2, cat2);
-                TaxCategory cat3 = new TaxCategory(16.67, 59180.01, 93000);
+                TaxCategory cat3 = new TaxCategory(16.67, 59_180.01, 93_000);
                 categories.put(3, cat3);
-                TaxCategory cat4 = new TaxCategory(17.5, 93000.01, 150000);
+                TaxCategory cat4 = new TaxCategory(17.5, 93_000.01, 150_000);
                 categories.put(4, cat4);
-                TaxCategory cat5 = new TaxCategory(21.0, 150000.01, 10000000);
+                TaxCategory cat5 = new TaxCategory(21.0, 150_000.01, 10_000_000);
                 categories.put(5, cat5);
 
             } catch (Exception e) {
@@ -159,15 +159,15 @@ public class GovernmentTax extends Deduction {
             try {
                 //INSERT YOUR CODE HERE
                 //You will need to study how Manitoba is being implemented
-                TaxCategory cat1 = new TaxCategory(5.05, 0, 44740);
+                TaxCategory cat1 = new TaxCategory(5.05, 0, 44_740);
                 categories.put(1, cat1);
-                TaxCategory cat2 = new TaxCategory(9.15, 44740.01, 89482);
+                TaxCategory cat2 = new TaxCategory(9.15, 44_740.01, 89_482);
                 categories.put(2, cat2);
-                TaxCategory cat3 = new TaxCategory(11.16, 89482.01, 150000);
+                TaxCategory cat3 = new TaxCategory(11.16, 89_482.01, 150_000);
                 categories.put(3, cat3);
-                TaxCategory cat4 = new TaxCategory(12.16, 150000.01, 220000);
+                TaxCategory cat4 = new TaxCategory(12.16, 150_000.01, 220_000);
                 categories.put(4, cat4);
-                TaxCategory cat5 = new TaxCategory(13.16, 220000.01, 10000000);
+                TaxCategory cat5 = new TaxCategory(13.16, 220_000.01, 10_000_000);
                 categories.put(5, cat5);
 
             } catch (Exception e) {
@@ -184,11 +184,11 @@ public class GovernmentTax extends Deduction {
             try {
                 //INSERT YOUR CODE HERE
                 //You will need to study how Manitoba is being implemented
-                TaxCategory cat1 = new TaxCategory(10.5, 0, 45_677);
+                TaxCategory cat1 = new TaxCategory(10.5, 0, 45_677.00);
                 categories.put(1, cat1);
                 TaxCategory cat2 = new TaxCategory(12.5, 45_677.01, 130_506.00);
                 categories.put(2, cat2);
-                TaxCategory cat3 = new TaxCategory(13.16, 130_506.01, 10000000);
+                TaxCategory cat3 = new TaxCategory(13.16, 130_506.01, 10_000_000);
                 categories.put(3, cat3);
             } catch (Exception e) {
                 System.out.println("Something went wrong in GovernmentTax.saskatchewan()");
@@ -204,15 +204,15 @@ public class GovernmentTax extends Deduction {
             try {
                 //INSERT YOUR CODE HERE
                 //You will need to study how Manitoba is being implemented
-                TaxCategory cat1 = new TaxCategory(15, 0, 49020.00);
+                TaxCategory cat1 = new TaxCategory(15, 0, 49_020.00);
                 categories.put(1, cat1);
-                TaxCategory cat2 = new TaxCategory(20.5, 49020.01, 98040);
+                TaxCategory cat2 = new TaxCategory(20.5, 49_020.01, 98_040);
                 categories.put(2, cat2);
-                TaxCategory cat3 = new TaxCategory(26, 98040.01, 151978);
+                TaxCategory cat3 = new TaxCategory(26, 98_040.01, 151_978);
                 categories.put(3, cat3);
-                TaxCategory cat4 = new TaxCategory(29, 151978.01, 216511);
+                TaxCategory cat4 = new TaxCategory(29, 151_978.01, 216_511);
                 categories.put(4, cat4);
-                TaxCategory cat5 = new TaxCategory(33, 216511.01, 10000000);
+                TaxCategory cat5 = new TaxCategory(33, 216_511.01, 10_000_000);
                 categories.put(5, cat5);
 
             } catch (Exception e) {
@@ -241,16 +241,38 @@ public class GovernmentTax extends Deduction {
 
         double income = employee.getIncome();
         //INSERT YOUR CODE HERE
+        double totalTax = 0;
+        double taxableAmount = 0;
+        TaxCategory[] taxCategories = new TaxCategory[7];
+        taxCategories[0] = categories.get(7);
+        taxCategories[1] = categories.get(6);
+        taxCategories[2] = categories.get(5);
+        taxCategories[3] = categories.get(4);
+        taxCategories[4] = categories.get(3);
+        taxCategories[5] = categories.get(2);
+        taxCategories[6] = categories.get(1);
 
+        for (TaxCategory taxCat : taxCategories) {
+            if (taxCat != null) {
+                if (income > taxCat.getLowerBound()) {
+                    if (taxCat.getUpperBound() >= income) // first tax category to tax
+                        taxableAmount += income - taxCat.getLowerBound();
+                    else
+                        taxableAmount += taxCat.getUpperBound() - taxCat.getLowerBound();
+                    totalTax += (taxCat.getPercentage() / 100) * taxableAmount;
+                    taxableAmount = 0;
+                }
+            }
+        }
 
-        return 0.0;
+            return totalTax;
+        }
+
+        public double getAmount () {
+            return Math.round(computeAmount() * 100.0) / 100.0;
+        }
+
+        public boolean isProvincial () {
+            return isProvincial;
+        }
     }
-
-    public double getAmount() {
-        return Math.round(computeAmount() * 100.0) / 100.0;
-    }
-
-    public boolean isProvincial() {
-        return isProvincial;
-    }
-}

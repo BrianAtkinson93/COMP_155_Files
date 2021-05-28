@@ -44,28 +44,26 @@ public class QualityAssurance {
         boolean[] answer = new boolean[7];
         //Testing the categories for British Columbia
         Map<Integer, TaxCategory> bc = new GovernmentTax.TaxUtil().britishColumbia();
-        if (bc != null) {
 
-            //case 1
-            TaxCategory cat = bc.get(1);
+        //case 1
+        TaxCategory cat = bc.get(1);
 
-            answer[0] = checkCategory(cat, 5.06, 0, 42184);
-            //case 2
-            cat = bc.get(2);
-            answer[1] = checkCategory(cat, 7.7, 42184.01, 84369);
-            //case 3
-            cat = bc.get(3);
-            answer[2] = checkCategory(cat, 10.5, 84369.01, 96866);
-            //case 4
-            cat = bc.get(4);
-            answer[3] = checkCategory(cat, 12.29, 96866.01, 117623);
-            cat = bc.get(5);
-            answer[4] = checkCategory(cat, 14.7, 117623.01, 159483);
-            cat = bc.get(6);
-            answer[5] = checkCategory(cat, 16.8, 159483.01, 222420);
-            cat = bc.get(7);
-            answer[6] = checkCategory(cat, 20.5, 222420.01, 10000000);
-        }
+        answer[0] = checkCategory(cat, 5.06, 0, 42184);
+        //case 2
+        cat = bc.get(2);
+        answer[1] = checkCategory(cat, 7.7, 42184.01, 84369);
+        //case 3
+        cat = bc.get(3);
+        answer[2] = checkCategory(cat, 10.5, 84369.01, 96866);
+        //case 4
+        cat = bc.get(4);
+        answer[3] = checkCategory(cat, 12.29, 96866.01, 117623);
+        cat = bc.get(5);
+        answer[4] = checkCategory(cat, 14.7, 117623.01, 159483);
+        cat = bc.get(6);
+        answer[5] = checkCategory(cat, 16.8, 159483.01, 222420);
+        cat = bc.get(7);
+        answer[6] = checkCategory(cat, 20.5, 222420.01, 10000000);
         return answer;
     }
 
@@ -172,27 +170,25 @@ public class QualityAssurance {
         boolean[] answer = new boolean[5];
         //Testing the categories for Federal
         Map<Integer, TaxCategory> tax = new GovernmentTax.TaxUtil().federal();
-        if (tax != null) {
 
-            //case 1
-            TaxCategory cat = tax.get(1);
-            answer[0] = checkCategory(cat, 15, 0, 49020);
-            //System.out.println(answer[0]);
-            //case 2
-            cat = tax.get(2);
-            answer[1] = checkCategory(cat, 20.5, 49020.01, 98040);
-            //System.out.println(answer[1]);
-            //case 3
-            cat = tax.get(3);
-            answer[2] = checkCategory(cat, 26, 98040.01, 151978);
-            //System.out.println(answer[2]);
-            cat = tax.get(4);
-            answer[3] = checkCategory(cat, 29, 151978.01, 216511);
-            //System.out.println(answer[3]);
-            cat = tax.get(5);
-            answer[4] = checkCategory(cat, 33, 216511.01, 10000000);
-            //System.out.println(answer[4]);
-        }
+        //case 1
+        TaxCategory cat = tax.get(1);
+        answer[0] = checkCategory(cat, 15, 0, 49020);
+        //System.out.println(answer[0]);
+        //case 2
+        cat = tax.get(2);
+        answer[1] = checkCategory(cat, 20.5, 49020.01, 98040);
+        //System.out.println(answer[1]);
+        //case 3
+        cat = tax.get(3);
+        answer[2] = checkCategory(cat, 26, 98040.01, 151978);
+        //System.out.println(answer[2]);
+        cat = tax.get(4);
+        answer[3] = checkCategory(cat, 29, 151978.01, 216511);
+        //System.out.println(answer[3]);
+        cat = tax.get(5);
+        answer[4] = checkCategory(cat, 33, 216511.01, 10000000);
+        //System.out.println(answer[4]);
         return answer;
     }
 
@@ -608,7 +604,7 @@ public class QualityAssurance {
 
     public static boolean[] test() {
 
-        boolean[] test = new boolean[21];
+        boolean[] test = new boolean[20];
 
         test[0] = evaluateQuestion(Q1());
         test[1] = evaluateQuestion(Q2());

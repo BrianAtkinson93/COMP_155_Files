@@ -4,34 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="106e9d5f-3ad7-4061-89a6-fccd019bc6a1" name="Default Changelist" comment="GovernmentTax.java update">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_1/QualityAssurance.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_1/TaxTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/DataScience.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/Utility.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/file/CSVReader.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/CPP.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/Deduction.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/EI.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/Employee.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/GovernmentTax$TaxUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/GovernmentTax.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/HealthPremium.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/TaxCategory.class" afterDir="false" />
+    <list default="true" id="106e9d5f-3ad7-4061-89a6-fccd019bc6a1" name="Default Changelist" comment="running, but not great">
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_1_zip.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1/CPP.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/CPP.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1/CSVReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/file/CSVReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1/DataScience.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/DataScience.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1/Deduction.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/Deduction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1/EI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/EI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1/GovernmentTax.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/GovernmentTax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1/HealthPremium.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/HealthPremium.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1/OverallTax.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/OverallTax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1/QualityAssurance.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_1/QualityAssurance.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1/QualityAssurance.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_1/QualityAssurance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1/TaxCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/TaxCategory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/Utility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/DataScience.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/DataScience.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/DataScience.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/DataScience.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/GovernmentTax.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/GovernmentTax.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/GovernmentTax.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/GovernmentTax.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -352,7 +333,21 @@
       <option name="project" value="LOCAL" />
       <updated>1622149704812</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="running, but not great">
+      <created>1622160907133</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1622160907133</updated>
+    </task>
+    <task id="LOCAL-00023" summary="running, but not great">
+      <created>1622161197127</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1622161197127</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,7 +382,8 @@
     <MESSAGE value="Assignment 1 - CPP, EI, and Health Premiums" />
     <MESSAGE value="push" />
     <MESSAGE value="GovernmentTax.java update" />
-    <option name="LAST_COMMIT_MESSAGE" value="GovernmentTax.java update" />
+    <MESSAGE value="running, but not great" />
+    <option name="LAST_COMMIT_MESSAGE" value="running, but not great" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/COMP_155_Files$Test.ic" NAME="Test Coverage Results" MODIFIED="1621302769512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
