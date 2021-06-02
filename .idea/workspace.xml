@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="106e9d5f-3ad7-4061-89a6-fccd019bc6a1" name="Default Changelist" comment="60.0points">
-      <change afterPath="$PROJECT_DIR$/Labs/Lab_3/stubs/MyInteger.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab_3/stubs/MyInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab_3/stubs/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab_3/stubs/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/COMP_155_Files.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/COMP_155_Files.iml" afterDir="false" />
+    <list default="true" id="106e9d5f-3ad7-4061-89a6-fccd019bc6a1" name="Default Changelist" comment="Lab 3 - Complete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/DataScience.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/DataScience.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/HealthPremium.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/HealthPremium.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab_3/stubs/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab_3/stubs/Test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +182,7 @@
       <workItem from="1621406205350" duration="20729000" />
       <workItem from="1621987411541" duration="4256000" />
       <workItem from="1622227387704" duration="6345000" />
-      <workItem from="1622575101586" duration="9687000" />
+      <workItem from="1622575101586" duration="17357000" />
     </task>
     <task id="LOCAL-00001" summary="Test.java - Finally getting it to work through terminal for class 1">
       <created>1621302907660</created>
@@ -370,7 +366,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622235770186</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Lab 3 - Complete">
+      <created>1622615819282</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1622615819282</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -407,7 +410,8 @@
     <MESSAGE value="GovernmentTax.java update" />
     <MESSAGE value="running, but not great" />
     <MESSAGE value="60.0points" />
-    <option name="LAST_COMMIT_MESSAGE" value="60.0points" />
+    <MESSAGE value="Lab 3 - Complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab 3 - Complete" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/COMP_155_Files$Test.ic" NAME="Test Coverage Results" MODIFIED="1621302769512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
