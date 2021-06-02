@@ -16,6 +16,13 @@ public class GovernmentTax extends Deduction {
     boolean isProvincial = false;
 
     public static class TaxUtil {
+        /*
+        * Here we were told to study how Manitoba is set up.
+        * I determined that what is happening is we are creating categories that have
+        * the appropriate lower and upper limits with applicable percentage to be taxed at within
+        * that category.
+        * so I replicated this for each province with the same approach however different values.
+        * these categories will later be used in the computeAmount() method*/
 
         public static Map<Integer, TaxCategory> getEmployeeCategories(String provinceOrFederal) {
 
@@ -242,6 +249,14 @@ public class GovernmentTax extends Deduction {
 
         double income = employee.getIncome();
         //INSERT YOUR CODE HERE
+        /*
+        * Here I flip the taxCategories, so it will start by calculating the highest bracket first
+        * working towards the bottom.
+        * I then create an If condition stating
+        * if (as long as income is not equal to 0/null)
+        * if (if income is greater than the .getLowerBound (lower limit)
+        * if (if income is less than .getUpperBound) do those things
+        * else (if income is greater than .getUpperBound) do these things*/
         double totalTax = 0;
         double taxableAmount = 0;
         TaxCategory[] taxCategories = new TaxCategory[7];
