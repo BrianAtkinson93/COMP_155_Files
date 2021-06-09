@@ -97,14 +97,12 @@ public class Statistics {
         }
 
         double variance = sumOfDifferences / length;
+        double sqrt = Math.sqrt(variance);
 
-        double total = (Math.sqrt(variance)*Math.sqrt(variance));
-        double rounded = Math.round(total*100.0)/100.0;
-        double squared = Math.pow(rounded,2);
-        double sqrdRounded = Math.round(squared*100.0)/100.0;
+        double rounded = Math.round(sqrt*100.0)/100.0;
+        System.out.println(rounded);
 
-        System.out.println(sqrdRounded);
-        return sqrdRounded;
+        return rounded;
     }
 
     private static double points(int index) {
@@ -159,7 +157,7 @@ public class Statistics {
         values = new double[]{1, 2, 3, 5, 6, 7, -8, 20, 25, 60, 75, 28, 28};
         test[5] = (mode(values) == 28);
         test[6] = (popVariance(values) == 547.78);
-        test[7] = (popStdev(values) == 300062.93);
+        test[7] = (popStdev(values) == 23.4);
 
 
         //printing tests result
