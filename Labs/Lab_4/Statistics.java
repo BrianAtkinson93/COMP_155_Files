@@ -37,15 +37,15 @@ public class Statistics {
         //INSERT YOUR CODE HERE
         double maxValue = 0;
         int maxCount = 0;
-        for (double v : values) {
+        for (double value1 : values) {
             int count = 0;
-            for (double value : values) {
-                if (value == v)
+            for (double value2 : values) {
+                if (value2 == value1)
                     ++count;
             }
             if (count > maxCount) {
                 maxCount = count;
-                maxValue = v;
+                maxValue = value1;
             }
         }
         return maxValue;
@@ -57,23 +57,18 @@ public class Statistics {
     public static double popVariance(double[] values) {
 
         //INSERT YOUR CODE HERE
-        double sum = 0.0;
-        double sumOfDifferences = 0.0;
         int length = values.length;
+        double sumOfDifferences = 0;
 
-        for (double value : values) {
-            sum += value;
-        }
-
-        double mean = sum / length;
+        double mean = mean(values);
 
         for (double value : values) {
             sumOfDifferences += Math.pow(value - mean, 2);
         }
 
-        double variance = sumOfDifferences / length;
+        double sqrt = Math.sqrt(sumOfDifferences / length);
 
-        double total = (Math.sqrt(variance)*Math.sqrt(variance));
+        double total = (Math.pow(sqrt,2));
 
         return Math.round(total*100.0)/100.0;
     }
@@ -82,27 +77,18 @@ public class Statistics {
     public static double popStdev(double[] values) {
 
         //INSERT YOUR CODE HERE
-        double sum = 0.0;
-        double sumOfDifferences = 0.0;
         int length = values.length;
+        double sumOfDifferences = 0;
 
-        for (double value : values) {
-            sum += value;
-        }
-
-        double mean = sum / length;
+        double mean = mean(values);
 
         for (double value : values) {
             sumOfDifferences += Math.pow(value - mean, 2);
         }
 
-        double variance = sumOfDifferences / length;
-        double sqrt = Math.sqrt(variance);
+        double sqrt = Math.sqrt(sumOfDifferences / length);
 
-        double rounded = Math.round(sqrt*100.0)/100.0;
-        System.out.println(rounded);
-
-        return rounded;
+        return Math.round(sqrt*100.0)/100.0;
     }
 
     private static double points(int index) {
