@@ -6,6 +6,11 @@ public class Statistics {
     public static double mean(double[] values) {
 
         //INSERT YOUR CODE HERE
+        /*
+        * This mean method is very straight forward, we begin by getting the sum
+        * of all the elements of the array. We then calculate the length of the array
+        * and divide the sum by the length, returning the mean(average) and rounding
+        * it to 2 decimal places.*/
         double sum = 0;
         for (double value : values) {
             sum += value;
@@ -21,6 +26,12 @@ public class Statistics {
 
         Arrays.sort(values); //sorts the input value
         //INSERT YOUR CODE HERE
+        /*
+        * This method begins by sorting the array.
+        * Then the if statement checks to see if the array that was provided is
+        * even or odd by checking the remainder when divided by 2.
+        * Once that is established we can either take the middle value OR by
+        * taking both the middle values (in the case of even length arrays)*/
         int length = values.length;
         int middle = length / 2;
         int middle2 = middle - 1;
@@ -35,6 +46,15 @@ public class Statistics {
     public static double mode(double[] values) {
 
         //INSERT YOUR CODE HERE
+        /*
+        * Below, I created 2 for loops, I did this so I can iterate through the first loop and
+        * every time the second loop finds the number that i'm on in the first loop it will increment
+        * the counter by 1.
+        *
+        * since the second loop is nested in the first loop. The first for loop will increment from [0] to [1]
+        * while the second loop goes through the entire list before the first increments.
+        *
+        * the result maxValue is returned*/
         double maxValue = 0;
         int maxCount = 0;
         for (double value1 : values) {
@@ -57,6 +77,12 @@ public class Statistics {
     public static double popVariance(double[] values) {
 
         //INSERT YOUR CODE HERE
+        /*
+        * Below I begin by initializing sumOfDifferences and calculating the length.
+        * I then call the mean() method from earlier to set the mean variable.
+        * Then to calculate the Variance is begin with the mean, subtract the mean from each item and square the result.
+        * I then calculate the average of those and square root in the same line (line 75).
+        * after I have found the average i square the result and round it to 2 decimal places and return the result.*/
         int length = values.length;
         double sumOfDifferences = 0;
 
@@ -67,28 +93,21 @@ public class Statistics {
         }
 
         double sqrt = Math.sqrt(sumOfDifferences / length);
+        double squared = Math.pow(sqrt,2);
 
-        double total = (Math.pow(sqrt,2));
 
-        return Math.round(total*100.0)/100.0;
+        return Math.round(squared*100.0)/100.0;
     }
 
     //computes population standard deviation
     public static double popStdev(double[] values) {
 
         //INSERT YOUR CODE HERE
-        int length = values.length;
-        double sumOfDifferences = 0;
-
-        double mean = mean(values);
-
-        for (double value : values) {
-            sumOfDifferences += Math.pow(value - mean, 2);
-        }
-
-        double sqrt = Math.sqrt(sumOfDifferences / length);
-
-        return Math.round(sqrt*100.0)/100.0;
+        /*
+        * Below I call the popVariance() method and square root and round in order to find the Standard Deviation.
+        * This method works because it's how im SUPPOSED to calculate it compared to the way I tried earlier.
+        * */
+        return (Math.round(Math.sqrt(popVariance(values))*100.0)/100.0);
     }
 
     private static double points(int index) {
@@ -143,7 +162,7 @@ public class Statistics {
         values = new double[]{1, 2, 3, 5, 6, 7, -8, 20, 25, 60, 75, 28, 28};
         test[5] = (mode(values) == 28);
         test[6] = (popVariance(values) == 547.78);
-        test[7] = (popStdev(values) == 23.4);
+        test[7] = (popStdev(values) == 23.4); // I edited this number based on the recommendation from you.
 
 
         //printing tests result

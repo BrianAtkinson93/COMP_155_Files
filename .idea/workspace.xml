@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="106e9d5f-3ad7-4061-89a6-fccd019bc6a1" name="Default Changelist" comment="Updating Assignment 1 with notes">
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/GovernmentTax.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/GovernmentTax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/COMP_155_Files.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/COMP_155_Files.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1_zip.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Brian_Atkinson_300088157.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab_4/Statistics.class" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab_4/Statistics.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab_4/Statistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab_4/Statistics.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,17 +152,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Test" />
@@ -180,7 +173,8 @@
       <workItem from="1621406205350" duration="20729000" />
       <workItem from="1621987411541" duration="4256000" />
       <workItem from="1622227387704" duration="6345000" />
-      <workItem from="1622575101586" duration="18024000" />
+      <workItem from="1622575101586" duration="18638000" />
+      <workItem from="1623257371469" duration="5699000" />
     </task>
     <task id="LOCAL-00001" summary="Test.java - Finally getting it to work through terminal for class 1">
       <created>1621302907660</created>
@@ -378,7 +372,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622663255554</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Updating Assignment 1 with notes">
+      <created>1622663919383</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1622663919383</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
