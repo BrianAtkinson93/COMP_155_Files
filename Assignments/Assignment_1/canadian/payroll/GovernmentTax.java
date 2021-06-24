@@ -17,12 +17,12 @@ public class GovernmentTax extends Deduction {
 
     public static class TaxUtil {
         /*
-        * Here we were told to study how Manitoba is set up.
-        * I determined that what is happening is we are creating categories that have
-        * the appropriate lower and upper limits with applicable percentage to be taxed at within
-        * that category.
-        * so I replicated this for each province with the same approach however different values.
-        * these categories will later be used in the computeAmount() method*/
+         * Here we were told to study how Manitoba is set up.
+         * I determined that what is happening is we are creating categories that have
+         * the appropriate lower and upper limits with applicable percentage to be taxed at within
+         * that category.
+         * so I replicated this for each province with the same approach however different values.
+         * these categories will later be used in the computeAmount() method*/
 
         public static Map<Integer, TaxCategory> getEmployeeCategories(String provinceOrFederal) {
 
@@ -81,7 +81,7 @@ public class GovernmentTax extends Deduction {
             return categories;
         }
 
-        //declares the categories for the province of British Columbia
+        //declares the categories for the province of Quebec
         public static Map<Integer, TaxCategory> britishColumbia() {
 
             HashMap<Integer, TaxCategory> categories = new HashMap<Integer, TaxCategory>();
@@ -141,7 +141,7 @@ public class GovernmentTax extends Deduction {
             try {
                 //INSERT YOUR CODE HERE
                 //You will need to study how Manitoba is being implemented
-                TaxCategory cat1 = new TaxCategory(8.79, 0, 29_590);
+                TaxCategory cat1 = new TaxCategory(8.79, 0, 29590);
                 categories.put(1, cat1);
                 TaxCategory cat2 = new TaxCategory(14.95, 29_590.01, 59_180);
                 categories.put(2, cat2);
@@ -166,7 +166,6 @@ public class GovernmentTax extends Deduction {
             try {
                 //INSERT YOUR CODE HERE
                 //You will need to study how Manitoba is being implemented
-                // This creates and sets the values of categories
                 TaxCategory cat1 = new TaxCategory(5.05, 0, 44_740);
                 categories.put(1, cat1);
                 TaxCategory cat2 = new TaxCategory(9.15, 44_740.01, 89_482);
@@ -192,7 +191,7 @@ public class GovernmentTax extends Deduction {
             try {
                 //INSERT YOUR CODE HERE
                 //You will need to study how Manitoba is being implemented
-                TaxCategory cat1 = new TaxCategory(10.5, 0, 45_677.00);
+                TaxCategory cat1 = new TaxCategory(10.5, 0, 45_677);
                 categories.put(1, cat1);
                 TaxCategory cat2 = new TaxCategory(12.5, 45_677.01, 130_506.00);
                 categories.put(2, cat2);
@@ -250,16 +249,17 @@ public class GovernmentTax extends Deduction {
         double income = employee.getIncome();
         //INSERT YOUR CODE HERE
         /*
-        * Here I flip the taxCategories, so it will start by calculating the highest bracket first
-        * working towards the bottom.
-        * I then create an If condition stating
-        * if (as long as income is not equal to 0/null)
-        * if (if income is greater than the .getLowerBound (lower limit)
-        * if (if income is less than .getUpperBound) do those things
-        * else (if income is greater than .getUpperBound) do these things*/
+         * Here I flip the taxCategories, so it will start by calculating the highest bracket first
+         * working towards the bottom.
+         * I then create an If condition stating
+         * if (as long as income is not equal to 0/null)
+         * if (if income is greater than the .getLowerBound (lower limit)
+         * if (if income is less than .getUpperBound) do those things
+         * else (if income is greater than .getUpperBound) do these things*/
+
         double totalTax = 0;
         double taxableAmount = 0;
-        TaxCategory[] taxCategories = new TaxCategory[7];
+        TaxCategory taxCategories[] = new TaxCategory[7];
         taxCategories[0] = categories.get(7);
         taxCategories[1] = categories.get(6);
         taxCategories[2] = categories.get(5);
@@ -271,24 +271,26 @@ public class GovernmentTax extends Deduction {
         for (TaxCategory taxCat : taxCategories) {
             if (taxCat != null) {
                 if (income > taxCat.getLowerBound()) {
-                    if (taxCat.getUpperBound() >= income) // first tax category to tax
+                    if (taxCat.getUpperBound() >= income)
                         taxableAmount += income - taxCat.getLowerBound();
                     else
                         taxableAmount += taxCat.getUpperBound() - taxCat.getLowerBound();
                     totalTax += (taxCat.getPercentage() / 100) * taxableAmount;
                     taxableAmount = 0;
+
                 }
             }
         }
 
-            return totalTax;
-        }
 
-        public double getAmount () {
-            return Math.round(computeAmount() * 100.0) / 100.0;
-        }
-
-        public boolean isProvincial () {
-            return isProvincial;
-        }
+        return totalTax;
     }
+
+    public double getAmount() {
+        return Math.round(computeAmount() * 100.0) / 100.0;
+    }
+
+    public boolean isProvincial() {
+        return isProvincial;
+    }
+}

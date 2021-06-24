@@ -20,7 +20,7 @@ public class DataScience {
     public static Employee leastPaidEmployee(String province, Map<Integer, Employee> map) {
 
         //INSERT YOUR CODE HERE - study how allEmployees(...) is being implemented
-        Map<Integer, Employee> allEmployees = allEmployeesOf(province, map); // This is the line i dont understand
+        Map<Integer, Employee> allEmployees = allEmployeesOf(province, map);
         int i = 0;
         for (Map.Entry<Integer, Employee> employee : allEmployees.entrySet()) {
             Employee least = employee.getValue();
@@ -39,8 +39,7 @@ public class DataScience {
     //argument the map of employees for the target province
     public static Employee highestPaidEmployee(String province, Map<Integer, Employee> map) {
         //INSERT YOUR CODE HERE - see how allEmployees(...) is being implemented below. You may even reuse the code as well
-        Map<Integer, Employee> allEmployees = allEmployeesOf(province, map); // This is the line i dont understand
-        double largestIncome = 100_000_000;
+        Map<Integer, Employee> allEmployees = allEmployeesOf(province, map);
         int i = 0;
 
         for (Map.Entry<Integer, Employee> employee : allEmployees.entrySet()) {

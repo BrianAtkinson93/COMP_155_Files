@@ -17,9 +17,9 @@ public class HealthPremium extends canadian.payroll.Deduction {
         double income = employee.getIncome();
         //INSERT YOUR CODE HERE - Using the specification given on HealthPremium
         /*
-        * I created these so that in the future if someone wanted to come in and change these values
-        * they would only need to change them once, instead of hunting every instance of the variable.
-        * This was an attempt to make the program more modular or serviceable.*/
+         * I created these so that in the future if someone wanted to come in and change these values
+         * they would only need to change them once, instead of hunting every instance of the variable.
+         * This was an attempt to make the program more modular or serviceable.*/
         double cap1 = 22_000.00;
         double cap2 = 38_000.00;
         double cap3 = 50_000.00;
@@ -33,9 +33,9 @@ public class HealthPremium extends canadian.payroll.Deduction {
         double premiums = 0;
 
         /*
-        * This is a very basic if, then loop
-        * It checks "If" the income is below a certain threshold and then calculates it
-        * as per the instruction give on the lap hand-out*/
+         * This is a very basic if, then loop
+         * It checks "If" the income is below a certain threshold and then calculates it
+         * as per the instruction give on the lap hand-out*/
         if (income <= cap1)
             premiums = 0;
         else if (income <= cap2)

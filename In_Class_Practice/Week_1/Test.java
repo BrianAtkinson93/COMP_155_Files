@@ -43,8 +43,8 @@ class Test {
 
         testTypes();
 
-        Test t;
-        t = new Test();
+        Test_Cat t;
+        t = new Test_Cat();
         print(t.toString());
     }
 
