@@ -26,7 +26,7 @@ public class Person {
 
     }
 
-    public Person( int identity, String name, double age, Sex sex, Status status, List<tracker.objects.Address> addresses ) {
+    public Person(int identity, String name, double age, Sex sex, Status status, List<tracker.objects.Address> addresses) {
         //INSERT YOUR CODE
         this.identity = identity;
         this.name = name;
@@ -66,32 +66,32 @@ public class Person {
         return identity;
     }
 
-    public void setName( String name ) {
+    public void setName(String name) {
         //INSERT YOUR CODE
         this.name = name;
     }
 
-    public void setAge( double age ) {
+    public void setAge(double age) {
         //INSERT YOUR CODE
         this.age = age;
     }
 
-    public void setSex( Sex sex ) {
+    public void setSex(Sex sex) {
         //INSERT YOUR CODE
         this.sex = sex;
     }
 
-    public void setStatus( Status status ) {
+    public void setStatus(Status status) {
         //INSERT YOUR CODE
         this.status = status;
     }
 
-    public void setAddresses( List<tracker.objects.Address> addresses ) {
+    public void setAddresses(List<tracker.objects.Address> addresses) {
         //INSERT YOUR CODE
         this.addresses = addresses;
     }
 
-    public void setIdentity( int identity ) {
+    public void setIdentity(int identity) {
         //INSERT YOUR CODE
         this.identity = identity;
     }
@@ -124,10 +124,13 @@ public class Person {
         };
     }
 
-    public boolean equals( Person person ) {
+    public boolean equals(Person person) {
 
         //INSERT YOUR CODE
-        return false;
+        /**
+         * Here we use the getters to verify that the
+         *  variables are the same for quality assurance.*/
+        return person.getName().equals(this.name) && person.getAge() == this.age && person.getStatus().equals(this.getStatus()) && person.getSex().equals(this.getSex()) && person.getAddresses().toString().equals(this.getAddresses().toString());
     }
 
     public String toString() {

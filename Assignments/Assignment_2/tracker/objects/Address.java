@@ -17,11 +17,11 @@ public class Address {
 
     //Constructors
     public Address() {
-        //INSERT YOUR CODE HERE
+
     }
 
     public Address(int streetNumber, String streetName, String postalCode, String city, String province, Type type) {
-        //INSERT YOUR CODE HERE
+
         this.streetNumber = streetNumber;
         this.streetName = streetName;
         this.postalCode = postalCode;
@@ -32,7 +32,7 @@ public class Address {
     }
 
     public Address(int unit, int streetNumber, String streetName, String postalCode, String city, String province, Type type) {
-        //INSERT YOUR CODE HERE
+
         this.unit = unit;
         this.streetNumber = streetNumber;
         this.streetName = streetName;
@@ -44,13 +44,12 @@ public class Address {
 
     //Accessor methods
     public int getStreetNumber() {
-        //INSERT YOUR CODE HERE
+
         return streetNumber;
     }
 
     public int getUnit() {
 
-        //INSERT YOUR CODE HERE
         return unit;
     }
 
@@ -60,57 +59,57 @@ public class Address {
     }
 
     public String getStreetName() {
-        //INSERT YOUR CODE HERE
+
         return streetName;
     }
 
     public String getPostalCode() {
-        //INSERT YOUR CODE HERE
+
         return postalCode;
     }
 
     public String getCity() {
-        //INSERT YOUR CODE HERE
+
         return city;
     }
 
     public String getProvince() {
-        //INSERT YOUR CODE HERE
+
         return province;
     }
 
     public void setStreetNumber(int number) {
-        //INSERT YOUR CODE HERE
+
         this.streetNumber = number;
     }
 
     public void setUnit(int unit) {
-        //INSERT YOUR CODE HERE
+
         this.unit = unit;
     }
 
     public void setStreetName(String name) {
-        //INSERT YOUR CODE HERE
+
         this.streetName = name;
     }
 
     public void setPostalCode(String code) {
-        //INSERT YOUR CODE HERE
+
         this.postalCode = code;
     }
 
     public void setCity(String city) {
-        //INSERT YOUR CODE HERE
+
         this.city = city;
     }
 
     public void setProvince(String province) {
-        //INSERT YOUR CODE HERE
+
         this.province = province;
     }
 
     public void setType(Type type) {
-        //INSERT YOUR CODE HERE
+
         this.type = type;
     }
 
@@ -140,8 +139,11 @@ public class Address {
     }
 
     public boolean equals(Address address) {
-        //INSERT YOUR CODE HERE
-        return false;
+
+        /**
+        * Here we use the getters to verify that the
+         * variables are the same for quality assurance.*/
+        return address.getUnit() == this.unit && address.getStreetNumber() == this.streetNumber && address.getStreetName() == this.streetName && address.getPostalCode() == this.postalCode && address.getCity() == this.city && address.getProvince() == this.province && address.getType() == this.getType();
     }
 
     public String toString() {

@@ -16,54 +16,64 @@ public class Circle extends Shape {
     private static final double PI = 3.142;
 
     public Circle() {
-        //INSERT YOUR CODE
+
         radius = 0.0;
     }
 
-    public Circle( double radius, Location centrePoint ) {
-        //INSERT YOUR CODE
+    public Circle(double radius, Location centrePoint) {
+
         super(centrePoint);
         this.radius = radius;
     }
 
-    public void setRadius( double radius ) {
-        //INSERT YOUR CODE
+    public void setRadius(double radius) {
+
         this.radius = radius;
     }
 
     public double getRadius() {
 
-        //INSERT YOUR CODE
         return radius;
     }
 
     public double area() {
 
-        //INSERT YOUR CODE
-        return Math.round(PI * (radius*radius)*100.0)/100.0;
+        /**
+         * Basic math here for calculating area
+         */
+        return Math.round(PI * (radius * radius) * 100.0) / 100.0;
     }
 
     public double perimeter() {
 
-        //INSERT YOUR CODE
-        return Math.round((2*PI*radius)*100.0)/100.0;
+        /**
+         * Basic math for calculating perimeter
+         */
+        return Math.round((2 * PI * radius) * 100.0) / 100.0;
 
     }
 
     public Rectangle boundingRectangle() {
 
-        //INSERT YOUR CODE
-        return new Rectangle(2.0*radius, 2.0*radius, getCentrePoint());
+        /**
+         * basic math here for finding a square around a circle
+         */
+        return new Rectangle(2.0 * radius, 2.0 * radius, getCentrePoint());
     }
 
-    public boolean equals( Circle other ) {
+    public boolean equals(Circle other) {
 
-        //INSERT YOUR CODE
-        return other.radius == this.radius && other.getCentrePoint() == this.getCentrePoint();
+        /**
+         * Here we prepare are filling in the code for comparison
+         *  for the quality assurance check.
+         */
+        return other.radius == this.radius && other.getCentrePoint().equals(this.getCentrePoint());
     }
 
     public String toString() {
-        //INSERT YOUR CODE
+        /**
+         * Here we prepare our radius and longitude/latitude output
+         */
         return "Circle: [radius: " + radius + ", " + getCentrePoint() + "]";
     }
 }

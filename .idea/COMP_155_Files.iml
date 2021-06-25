@@ -5,15 +5,14 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/In_Class_Practice/Week_1" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/In_Class_Practice/Week_2" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Java_Practice" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Labs/Lab_1" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/In_Class_Practice/Week_3" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Labs/Lab_2" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Assignments/Assignment_1" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Assignments/Assignment_2" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Labs/Lab_3" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Labs/Lab_4" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/In_Class_Practice/Week_6" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/Assignments/Assignment_1" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -14,15 +14,15 @@ public abstract class Shape {
 
     //default constructor
     public Shape() {
-        centrePoint = new Location( 0.0, 0.0 );
+        centrePoint = new Location(0.0, 0.0);
     }
 
     //parameterized constructor
-    public Shape( Location centrePoint ) {
+    public Shape(Location centrePoint) {
         this.centrePoint = centrePoint;
     }
 
-    public void setCentrePoint( Location location ) {
+    public void setCentrePoint(Location location) {
         centrePoint = location;
     }
 
@@ -32,6 +32,8 @@ public abstract class Shape {
 
     //abstract method definitions
     abstract double area();
+
     abstract double perimeter();
+
     abstract Rectangle boundingRectangle();
 }

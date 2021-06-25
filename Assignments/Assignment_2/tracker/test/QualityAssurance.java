@@ -32,12 +32,6 @@ public class QualityAssurance {
         answer[2] = loc1.getLongitude() == 2.345678;
         answer[3] = loc1.getLatitude() == 3.98756;
         answer[4] = loc1.toString().equals("Located at: [longitude: 2.345678, latitude: 3.98756]");
-/*
-        System.out.println( loc1 );
-        System.out.println(loc2);
-        System.out.println(loc1.getLatitude());
-        System.out.println(loc1.getLongitude());
-*/
 
         return answer;
     }
@@ -125,7 +119,7 @@ public class QualityAssurance {
         addr2 = new Address( 27567, "James Avenue", "V2T 0H9", "Abbotsford", "British Columbia", type );
         answer[9] = addr2.toString().equals("BUSINESS: 27567, James Avenue, Abbotsford, BC V2T 0H9");
 
-        //testing defualt constructor
+        //testing default constructor
         return answer;
     }
 
@@ -158,6 +152,7 @@ public class QualityAssurance {
         addr2.setCity("Abbotsford");
         addr2.setPostalCode("V2T 0H9");
         addr2.setProvince("British Columbia");
+        //addr2.setType(Address.Type.HOME);
         List<Address> addresses2 = new ArrayList<Address>();
         addresses2.add( addr2 );
         p2.setAddresses( addresses2 );
@@ -191,7 +186,7 @@ public class QualityAssurance {
         addresses2.add( addr1 );
         p2.setAddresses( addresses2 );
 
-        //testing defualt constructor
+        //testing default constructor
         return answer;
     }
 

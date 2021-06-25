@@ -11,50 +11,52 @@ public class Location {
     double longitude, latitude;
 
     public Location() {
-        //INSERT YOUR CODE
+
         longitude = 0.0;
         latitude = 0.0;
     }
 
 
-    public Location( double longitude, double latitude ) {
-        //INSERT YOUR CODE
+    public Location(double longitude, double latitude) {
+
         this.latitude = latitude;
         this.longitude = longitude;
-
-        //System.out.println(latitude);
-        //System.out.println(longitude);
 
     }
 
     public double getLongitude() {
-        //INSERT YOUR CODE
+
         return longitude;
     }
 
     public double getLatitude() {
-        //INSERT YOUR CODE
+
         return latitude;
     }
 
-    public void setLongitude( double longitude ) {
-        //INSERT YOUR CODE
+    public void setLongitude(double longitude) {
+
         this.longitude = longitude;
     }
 
-    public void setLatitude( double latitude ) {
-        //INSERT YOUR CODE
+    public void setLatitude(double latitude) {
+
         this.latitude = latitude;
     }
 
-    public boolean equals( Location other ) {
+    public boolean equals(Location other) {
 
-        //INSERT YOUR CODE
+
+        /**
+         * Here we use the getters to verify that the
+         *  variables are the same for quality assurance.*/
         return other.latitude == this.latitude && other.longitude == this.longitude;
     }
 
     public String toString() {
-        //INSERT YOUR CODE
+        /**
+         * Here we prepare our longitude and latitude for output
+         */
         return "Located at: [longitude: " + this.getLongitude() + ", latitude: " + this.getLatitude() + "]";
 
     }
