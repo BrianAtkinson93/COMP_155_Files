@@ -66,7 +66,7 @@ public class Rectangle extends Shape {
 
     public boolean equals( Rectangle other ) {
         //INSERT YOUR CODE HERE
-        return false;
+        return other.width == this.width && other.length == this.length;
     }
 
     public String toString() {

@@ -40,27 +40,25 @@ public class Circle extends Shape {
     public double area() {
 
         //INSERT YOUR CODE
-        //System.out.println(Math.round(PI * (radius*radius)*100.0)/100.0);
-        return Math.round((PI * (radius*radius)*100.0)/100.0);
+        return Math.round(PI * (radius*radius)*100.0)/100.0;
     }
 
     public double perimeter() {
 
         //INSERT YOUR CODE
-        //System.out.println(Math.round((2*PI*radius)*100.0)/100.0);
         return Math.round((2*PI*radius)*100.0)/100.0;
     }
 
     public Rectangle boundingRectangle() {
 
         //INSERT YOUR CODE
-        return null;
+        return new Rectangle(2.0*radius, 2.0*radius, getCentrePoint());
     }
 
     public boolean equals( Circle other ) {
 
         //INSERT YOUR CODE
-        return false;
+        return other.radius == this.radius && other.getCentrePoint() == this.getCentrePoint();
     }
 
     public String toString() {

@@ -20,9 +20,9 @@ public class Person {
     //constructors
     public Person() {
         //INSERT YOUR CODE
-        //identity = 0;
-        //name = "";
-        //age = 0.0;
+        identity = 0;
+        name = "";
+        age = 0.0;
 
     }
 
@@ -106,22 +106,22 @@ public class Person {
 
     private String sexToString() {
 
-        switch( sex ) {
-            case MALE : return "MALE";
-            case FEMALE : return "FEMALE";
-            default : return "UNKNOWN";
-        }
+        return switch (sex) {
+            case MALE -> "MALE";
+            case FEMALE -> "FEMALE";
+            default -> "UNKNOWN";
+        };
     }
 
     private String statusToString() {
 
-        switch( status ) {
-            case POSITIVE : return "POSITIVE";
-            case NEGATIVE : return "NEGATIVE";
-            case SYMPTOMATIC : return "SYMPTOMATIC";
-            case ASYMPTOMATIC : return "ASYMPTOMATIC";
-            default : return "UNKNOWN";
-        }
+        return switch (status) {
+            case POSITIVE -> "POSITIVE";
+            case NEGATIVE -> "NEGATIVE";
+            case SYMPTOMATIC -> "SYMPTOMATIC";
+            case ASYMPTOMATIC -> "ASYMPTOMATIC";
+            default -> "UNKNOWN";
+        };
     }
 
     public boolean equals( Person person ) {
@@ -133,6 +133,11 @@ public class Person {
     public String toString() {
 
         //INSERT YOUR CODE
-        return "\n" + "FULL NAME: " + name + "\n" +  "Age: " + age + " years \n" + "Sex: " + sex + "\n" + "Covid-19 Status: " + status + "\n" + "Contact Address(es): " + addresses;
+        StringBuilder s = new StringBuilder("\nFULL NAME: " + name + "\nAge: " + age + " years\nSex: " + sex + "\nCovid-19 Status: " + status + "\nContact Address(es):");
+        for (Address address : addresses) {
+            s.append("\n").append(address.toString());
+        }
+
+        return s.toString();
     }
 }

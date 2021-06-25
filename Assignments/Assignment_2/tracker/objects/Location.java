@@ -22,6 +22,9 @@ public class Location {
         this.latitude = latitude;
         this.longitude = longitude;
 
+        //System.out.println(latitude);
+        //System.out.println(longitude);
+
     }
 
     public double getLongitude() {
@@ -52,7 +55,7 @@ public class Location {
 
     public String toString() {
         //INSERT YOUR CODE
-        return "Located at: [longitude: " + longitude + ", latitude: " + latitude + "]";
+        return "Located at: [longitude: " + this.getLongitude() + ", latitude: " + this.getLatitude() + "]";
 
     }
 }
