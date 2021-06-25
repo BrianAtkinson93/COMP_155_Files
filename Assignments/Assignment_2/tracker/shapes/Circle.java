@@ -47,6 +47,7 @@ public class Circle extends Shape {
 
         //INSERT YOUR CODE
         return Math.round((2*PI*radius)*100.0)/100.0;
+
     }
 
     public Rectangle boundingRectangle() {

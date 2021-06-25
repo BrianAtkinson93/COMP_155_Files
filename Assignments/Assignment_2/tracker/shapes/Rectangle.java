@@ -61,7 +61,7 @@ public class Rectangle extends Shape {
 
     public Rectangle boundingRectangle() {
         //INSERT YOUR CODE HERE
-        return null;
+        return this;
     }
 
     public boolean equals( Rectangle other ) {

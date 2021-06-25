@@ -50,7 +50,7 @@ public class Location {
     public boolean equals( Location other ) {
 
         //INSERT YOUR CODE
-        return false;
+        return other.latitude == this.latitude && other.longitude == this.longitude;
     }
 
     public String toString() {

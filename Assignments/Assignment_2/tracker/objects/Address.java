@@ -28,6 +28,7 @@ public class Address {
         this.city = city;
         this.province = province;
         this.type = type;
+
     }
 
     public Address(int unit, int streetNumber, String streetName, String postalCode, String city, String province, Type type) {
@@ -53,8 +54,9 @@ public class Address {
         return unit;
     }
 
-    public String getType() {
-        return typeToString();
+    public Type getType() {
+
+        return type;
     }
 
     public String getStreetName() {
