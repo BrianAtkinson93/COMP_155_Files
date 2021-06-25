@@ -4,20 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="106e9d5f-3ad7-4061-89a6-fccd019bc6a1" name="Default Changelist" comment="Assignment_2 push - Latest Update (12;30)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Address.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Location.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Location.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/shapes/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/shapes/Circle.class" afterDir="false" />
+    <list default="true" id="106e9d5f-3ad7-4061-89a6-fccd019bc6a1" name="Default Changelist" comment="Assignment_2 push - Latest Update (01:06) Working">
       <change beforePath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/shapes/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/shapes/Rectangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/shapes/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/shapes/Rectangle.java" afterDir="false" />
     </list>
     <list id="b9596dab-5636-44fc-a752-e980cd55d57d" name="Changes by silve" comment="Changes by silve">
       <change beforePath="$PROJECT_DIR$/Assignments/Assignment_2/Tracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_2/Tracker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/shapes/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/shapes/Rectangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,18 +39,6 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Address.java">
-      <ranges>
-        <range start1="19" end1="20" start2="19" end2="20" changelist="106e9d5f-3ad7-4061-89a6-fccd019bc6a1" />
-        <range start1="23" end1="24" start2="23" end2="24" changelist="106e9d5f-3ad7-4061-89a6-fccd019bc6a1" />
-        <range start1="34" end1="35" start2="34" end2="35" changelist="106e9d5f-3ad7-4061-89a6-fccd019bc6a1" />
-        <range start1="52" end1="52" start2="52" end2="53" changelist="106e9d5f-3ad7-4061-89a6-fccd019bc6a1" />
-        <range start1="141" end1="142" start2="142" end2="143" changelist="106e9d5f-3ad7-4061-89a6-fccd019bc6a1" />
-        <range start1="150" end1="151" start2="151" end2="161" changelist="b9596dab-5636-44fc-a752-e980cd55d57d" />
-      </ranges>
-    </file>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -430,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624606181798</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Assignment_2 push - Latest Update (01:06) Working">
+      <created>1624608412497</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1624608412497</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -473,7 +462,8 @@
     <MESSAGE value="Assignment_2 push" />
     <MESSAGE value="Changes by silve" />
     <MESSAGE value="Assignment_2 push - Latest Update (12;30)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assignment_2 push - Latest Update (12;30)" />
+    <MESSAGE value="Assignment_2 push - Latest Update (01:06) Working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignment_2 push - Latest Update (01:06) Working" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
