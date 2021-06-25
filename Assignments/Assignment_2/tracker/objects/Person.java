@@ -20,22 +20,32 @@ public class Person {
     //constructors
     public Person() {
         //INSERT YOUR CODE
+        //identity = 0;
+        //name = "";
+        //age = 0.0;
+
     }
 
     public Person( int identity, String name, double age, Sex sex, Status status, List<tracker.objects.Address> addresses ) {
         //INSERT YOUR CODE
+        this.identity = identity;
+        this.name = name;
+        this.age = age;
+        this.sex = sex;
+        this.status = status;
+        this.addresses = addresses;
     }
 
 
     //Implementations of accessor methods
     public String getName() {
         //INSERT YOUR CODE
-        return "";
+        return name;
     }
 
     public double getAge() {
         //INSERT YOUR CODE
-        return 0.0;
+        return age;
     }
 
     public String getSex() {
@@ -48,36 +58,42 @@ public class Person {
 
     public List<tracker.objects.Address> getAddresses() {
         //INSERT YOUR CODE
-        return null;
+        return addresses;
     }
 
     public int getIdentity() {
         //INSERT YOUR CODE
-        return 0;
+        return identity;
     }
 
     public void setName( String name ) {
         //INSERT YOUR CODE
+        this.name = name;
     }
 
     public void setAge( double age ) {
         //INSERT YOUR CODE
+        this.age = age;
     }
 
     public void setSex( Sex sex ) {
         //INSERT YOUR CODE
+        this.sex = sex;
     }
 
     public void setStatus( Status status ) {
         //INSERT YOUR CODE
+        this.status = status;
     }
 
     public void setAddresses( List<tracker.objects.Address> addresses ) {
         //INSERT YOUR CODE
+        this.addresses = addresses;
     }
 
     public void setIdentity( int identity ) {
         //INSERT YOUR CODE
+        this.identity = identity;
     }
 
     public enum Status {
@@ -117,6 +133,6 @@ public class Person {
     public String toString() {
 
         //INSERT YOUR CODE
-        return "";
+        return "\n" + "FULL NAME: " + name + "\n" +  "Age: " + age + " years \n" + "Sex: " + sex + "\n" + "Covid-19 Status: " + status + "\n" + "Contact Address(es): " + addresses;
     }
 }

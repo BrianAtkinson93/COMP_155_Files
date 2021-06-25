@@ -4,64 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="106e9d5f-3ad7-4061-89a6-fccd019bc6a1" name="Default Changelist" comment="Lab_4 - Complete">
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_2/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_2/GradeLab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_2/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_2/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_2/Tracker.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_2/Tracker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Address$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Address$Type.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Address.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Location.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Person$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Person$Sex.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Person$Status.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/shapes/Circle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/shapes/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/shapes/Rectangle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/shapes/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/shapes/Shape.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/test/GradeLab.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/test/QualityAssurance.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/test/QualityAssurance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_Practice/Udemy_Cat/Cat.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_Practice/Udemy_Cat/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_Practice/Udemy_Cat/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_Practice/Udemy_Cat/Test_Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_Practice/Udemy_Dog/Dog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_Practice/Udemy_Dog/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_Practice/Udemy_Dog/Test.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_Practice/Udemy_Dog/Test_Dog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java_Practice/Udemy_Dog/Test_Dog.java" afterDir="false" />
+    <list default="true" id="106e9d5f-3ad7-4061-89a6-fccd019bc6a1" name="Default Changelist" comment="Assignment_2 Push">
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_2/xid-25394109_1.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/DataScience.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/DataScience.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/DataScience.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/DataScience.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/Utility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/file/CSVReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/file/CSVReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/Deduction.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/Deduction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/GovernmentTax$TaxUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/GovernmentTax$TaxUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/GovernmentTax.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/GovernmentTax.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/GovernmentTax.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/GovernmentTax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/HealthPremium.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/HealthPremium.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/HealthPremium.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/HealthPremium.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/OverallTax.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/OverallTax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/TaxCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/TaxCategory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/In_Class_Practice/Week_1/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/In_Class_Practice/Week_1/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Practice/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Practice/Practice_1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Practice/Practice_2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Practice/Practice_3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Practice/Practice_4.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Practice/Practice_5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Practice/Practice_6.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Practice/Practice_7.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Practice/Practice_8.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java_Practice/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_2/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_2/GradeLab.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/test/GradeLab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_2/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_2/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/shapes/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Address$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Address$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Address.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Location.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Location.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Person$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Person$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Person$Sex.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Person$Sex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Person$Status.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Person$Status.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/shapes/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/shapes/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/shapes/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/shapes/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/shapes/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/shapes/Rectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/shapes/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/shapes/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/test/QualityAssurance.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/test/QualityAssurance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/test/QualityAssurance.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/test/QualityAssurance.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,6 +139,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Assignments/Assignment_2" />
       <recent name="C:\Users\brian\Documents\GitHub\COMP_155_Files\In_Class_Practice\Week_1" />
     </key>
   </component>
@@ -441,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623356079059</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Assignment_2 Push">
+      <created>1624573479018</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1624573479018</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -481,7 +452,8 @@
     <MESSAGE value="Lab 3 - Complete" />
     <MESSAGE value="Updating Assignment 1 with notes" />
     <MESSAGE value="Lab_4 - Complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab_4 - Complete" />
+    <MESSAGE value="Assignment_2 Push" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignment_2 Push" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/COMP_155_Files$Test.ic" NAME="Test Coverage Results" MODIFIED="1621302769512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

@@ -18,25 +18,38 @@ public class Address {
         //INSERT YOUR CODE HERE
     }
 
-    public Address( int streeNumber, String streetName, String postalCode, String city, String province, Type type ) {
+    public Address( int streetNumber, String streetName, String postalCode, String city, String province, Type type ) {
         //INSERT YOUR CODE HERE
         unit = 0;
+        this.streetNumber = streetNumber;
+        this.streetName = streetName;
+        this.postalCode = postalCode;
+        this.city = city;
+        this.province = province;
+        this.type = type;
     }
 
-    public Address( int unit, int streeNumber, String streetName, String postalCode, String city, String province, Type type ) {
+    public Address( int unit, int streetNumber, String streetName, String postalCode, String city, String province, Type type ) {
         //INSERT YOUR CODE HERE
+        this.unit = unit;
+        this.streetNumber = streetNumber;
+        this.streetName = streetName;
+        this.postalCode = postalCode;
+        this.city = city;
+        this.province = province;
+        this.type = type;
     }
 
     //Accessor methods
     public int getStreetNumber() {
         //INSERT YOUR CODE HERE
-        return 0;
+        return streetNumber;
     }
 
     public int getUnit() {
 
         //INSERT YOUR CODE HERE
-        return 0;
+        return unit;
     }
 
     public String getType() {
@@ -45,50 +58,57 @@ public class Address {
 
     public String getStreetName() {
         //INSERT YOUR CODE HERE
-        return "";
+        return streetName;
     }
 
     public String getPostalCode() {
         //INSERT YOUR CODE HERE
-        return "";
+        return postalCode;
     }
 
     public String getCity() {
         //INSERT YOUR CODE HERE
-        return "";
+        return city;
     }
 
     public String getProvince() {
         //INSERT YOUR CODE HERE
-        return "";
+        return province;
     }
 
     public void setStreetNumber( int number ) {
         //INSERT YOUR CODE HERE
+        this.streetNumber = number;
     }
 
     public void setUnit( int unit ) {
         //INSERT YOUR CODE HERE
+        this.unit = unit;
     }
 
     public void setStreetName( String name ) {
         //INSERT YOUR CODE HERE
+        this.streetName = name;
     }
 
     public void setPostalCode( String code ) {
         //INSERT YOUR CODE HERE
+        this.postalCode = code;
     }
 
     public void setCity( String city ) {
         //INSERT YOUR CODE HERE
+        this.city = city;
     }
 
     public void setProvince( String province ) {
         //INSERT YOUR CODE HERE
+        this.province = province;
     }
 
     public void setType( Type type ) {
         //INSERT YOUR CODE HERE
+        this.type = type;
     }
 
     private static String formatProvince( String provinceOrFederal ) {
@@ -132,6 +152,6 @@ public class Address {
 
     public String toString() {
         //INSERT YOUR CODE HERE
-        return "";
+        return "" + type ;
     }
 }

@@ -12,29 +12,36 @@ public class Location {
 
     public Location() {
         //INSERT YOUR CODE
+        longitude = 0.0;
+        latitude = 0.0;
     }
 
 
     public Location( double longitude, double latitude ) {
         //INSERT YOUR CODE
+        this.latitude = latitude;
+        this.longitude = longitude;
+
     }
 
     public double getLongitude() {
         //INSERT YOUR CODE
-        return 0.0;
+        return longitude;
     }
 
     public double getLatitude() {
         //INSERT YOUR CODE
-        return 0.0;
+        return latitude;
     }
 
     public void setLongitude( double longitude ) {
         //INSERT YOUR CODE
+        this.longitude = longitude;
     }
 
     public void setLatitude( double latitude ) {
         //INSERT YOUR CODE
+        this.latitude = latitude;
     }
 
     public boolean equals( Location other ) {
@@ -45,6 +52,7 @@ public class Location {
 
     public String toString() {
         //INSERT YOUR CODE
-        return "";
+        return "Located at: [longitude: " + longitude + ", latitude: " + latitude + "]";
+
     }
 }

@@ -32,7 +32,12 @@ public class QualityAssurance {
         answer[2] = loc1.getLongitude() == 2.345678;
         answer[3] = loc1.getLatitude() == 3.98756;
         answer[4] = loc1.toString().equals("Located at: [longitude: 2.345678, latitude: 3.98756]");
-        //System.out.println( loc1 );
+/*
+        System.out.println( loc1 );
+        System.out.println(loc2);
+        System.out.println(loc1.getLatitude());
+        System.out.println(loc1.getLongitude());
+*/
 
         return answer;
     }
@@ -47,6 +52,8 @@ public class QualityAssurance {
         Circle c1 = new Circle();
         Circle c2 = new Circle(0.0, new Location(0.0, 0.0));
         answer[0] = c1.equals(c2);
+        //System.out.println(c1);
+        //System.out.println(c2);
 
         c1.setRadius( 25.67 );
         c1.setCentrePoint( loc1 );
@@ -58,6 +65,10 @@ public class QualityAssurance {
         answer[4] = c1.toString().equals("Circle: [radius: 25.67, Located at: [longitude: 2.345678, latitude: 3.98756]]");
         answer[5] = c1.area() == 2070.42;
         answer[6] = c1.perimeter() == 161.31;
+        //System.out.println(c1);
+        //System.out.println(c2);
+        // System.out.println(c1.area());
+        // System.out.println(c1.perimeter());
 
         return answer;
     }

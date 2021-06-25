@@ -17,38 +17,46 @@ public class Rectangle extends Shape {
 
     public Rectangle() {
         //INSERT YOUR CODE HERE
+        length = 0.0;
+        width = 0.0;
     }
 
     public Rectangle( double length, double width, Location centrePoint ) {
         //INSERT YOUR CODE HERE
+        this.length = length;
+        this.width = width;
     }
 
     public void setLength( double length ) {
         //INSERT YOUR CODE HERE
+        this.length = length;
     }
 
     public void setWidth( double width ) {
         //INSERT YOUR CODE HERE
+        this.width = width;
     }
 
     public double getLength() {
         //INSERT YOUR CODE HERE
-        return 0.0;
+        return length;
     }
 
     public double getWidth() {
         //INSERT YOUR CODE HERE
-        return 0.0;
+        return width;
     }
 
     public double area() {
         //INSERT YOUR CODE HERE
-        return 0.0;
+        //System.out.println(length * width);
+        return (length * width);
     }
 
     public double perimeter() {
         //INSERT YOUR CODE HERE
-        return 0.0;
+        //System.out.println(2 * (length + width));
+        return 2 * (length + width);
     }
 
     public Rectangle boundingRectangle() {
@@ -63,6 +71,6 @@ public class Rectangle extends Shape {
 
     public String toString() {
         //INSERT YOUR CODE HERE
-        return "";
+        return "Rectangle: [length: " + length + ", width: " + width + ", " + getCentrePoint() + "]" ;
     }
 }

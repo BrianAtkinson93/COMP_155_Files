@@ -16,36 +16,39 @@ public class Circle extends Shape {
     private static final double PI = 3.142;
 
     public Circle() {
-
         //INSERT YOUR CODE
+        radius = 0.0;
     }
 
     public Circle( double radius, Location centrePoint ) {
-
         //INSERT YOUR CODE
+        super(centrePoint);
+        this.radius = radius;
     }
 
     public void setRadius( double radius ) {
-
         //INSERT YOUR CODE
+        this.radius = radius;
     }
 
     public double getRadius() {
 
         //INSERT YOUR CODE
-        return 0.0;
+        return radius;
     }
 
     public double area() {
 
         //INSERT YOUR CODE
-        return 0.0;
+        //System.out.println(Math.round(PI * (radius*radius)*100.0)/100.0);
+        return Math.round((PI * (radius*radius)*100.0)/100.0);
     }
 
     public double perimeter() {
 
         //INSERT YOUR CODE
-        return 0.0;
+        //System.out.println(Math.round((2*PI*radius)*100.0)/100.0);
+        return Math.round((2*PI*radius)*100.0)/100.0;
     }
 
     public Rectangle boundingRectangle() {
@@ -62,6 +65,6 @@ public class Circle extends Shape {
 
     public String toString() {
         //INSERT YOUR CODE
-        return "";
+        return "Circle: [radius: " + radius + ", " + getCentrePoint() + "]";
     }
 }
