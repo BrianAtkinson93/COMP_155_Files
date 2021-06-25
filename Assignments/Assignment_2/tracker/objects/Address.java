@@ -17,11 +17,11 @@ public class Address {
 
     //Constructors
     public Address() {
-
+        //INSERT YOUR CODE HERE        this.type = Type.HOME;
     }
 
     public Address(int streetNumber, String streetName, String postalCode, String city, String province, Type type) {
-
+        //INSERT YOUR CODE HERE
         this.streetNumber = streetNumber;
         this.streetName = streetName;
         this.postalCode = postalCode;
@@ -32,7 +32,7 @@ public class Address {
     }
 
     public Address(int unit, int streetNumber, String streetName, String postalCode, String city, String province, Type type) {
-
+        //INSERT YOUR CODE HERE
         this.unit = unit;
         this.streetNumber = streetNumber;
         this.streetName = streetName;
@@ -49,6 +49,7 @@ public class Address {
     }
 
     public int getUnit() {
+
 
         return unit;
     }
