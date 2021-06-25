@@ -16,7 +16,6 @@ public class Location {
         latitude = 0.0;
     }
 
-
     public Location(double longitude, double latitude) {
 
         this.latitude = latitude;
@@ -46,7 +45,6 @@ public class Location {
 
     public boolean equals(Location other) {
 
-
         /**
          * Here we use the getters to verify that the
          *  variables are the same for quality assurance.*/
@@ -54,6 +52,7 @@ public class Location {
     }
 
     public String toString() {
+
         /**
          * Here we prepare our longitude and latitude for output
          */
