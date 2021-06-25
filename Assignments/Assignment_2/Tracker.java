@@ -58,6 +58,7 @@ class Tracker {
         addr2.setCity("Abbotsford");
         addr2.setPostalCode("V2T 0H9");
         addr2.setProvince("Quebec");
+        addr2.setType(Address.Type.HOME);
 
         Person p1 = new Person();
         List<Address> addresses = new ArrayList<Address>();

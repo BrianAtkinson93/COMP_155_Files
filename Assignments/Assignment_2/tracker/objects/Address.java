@@ -148,7 +148,16 @@ public class Address {
     }
 
     public String toString() {
-        //INSERT YOUR CODE HERE
-        return this.getType() + ": " + this.getUnit() + "-" + this.getStreetNumber() + ", " + this.getStreetName() + ", " + this.getCity() + ", " + formatProvince(this.getProvince()) + ", " + this.getPostalCode();
+
+        /**
+         * Here we created a conditional statement to check if
+         *  the address contains a unit number or not. Once the
+         *   condition is established, either we return the address
+         *    without a unit number or with a unit number
+         */
+        if (this.getUnit() == 0)
+            return this.getType() + ": " + this.getStreetNumber() + ", " + this.getStreetName() + ", " + this.getCity() + ", " + formatProvince(this.getProvince()) + " " + this.getPostalCode();
+        else
+            return this.getType() + ": " + this.getUnit() + "-" + this.getStreetNumber() + ", " + this.getStreetName() + ", " + this.getCity() + ", " + formatProvince(this.getProvince()) + " " + this.getPostalCode();
     }
 }

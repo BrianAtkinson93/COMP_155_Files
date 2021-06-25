@@ -22,7 +22,7 @@ public class Rectangle extends Shape {
     }
 
     public Rectangle( double length, double width, Location centrePoint ) {
-
+        super(centrePoint);
         this.length = length;
         this.width = width;
     }
