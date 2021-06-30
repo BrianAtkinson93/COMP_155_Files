@@ -4,26 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="106e9d5f-3ad7-4061-89a6-fccd019bc6a1" name="Default Changelist" comment="Assignment_2 push - Latest Update (01:06) Working">
-      <change afterPath="$PROJECT_DIR$/Labs/Lab_5/stubs/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab_5/stubs/GradeLab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab_5/stubs/Point.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab_5/stubs/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab_5/stubs/QualityAssurance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab_5/stubs/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab_5/stubs/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab_5/stubs/TestShapes.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab_5/stubs/TestShapes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab_5/stubs/stubs/Circle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab_5/stubs/stubs/GradeLab.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab_5/stubs/stubs/Point.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab_5/stubs/stubs/QualityAssurance.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab_5/stubs/stubs/Rectangle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab_5/stubs/stubs/Shape.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab_5/stubs/stubs/TestShapes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/COMP_155_Files.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/COMP_155_Files.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Brian_Atkinson_300088157.zip" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Brian_Atkinson_300088157.zip" afterDir="false" />
+    <list default="true" id="106e9d5f-3ad7-4061-89a6-fccd019bc6a1" name="Default Changelist" comment="Lab_5 - Working">
+      <change beforePath="$PROJECT_DIR$/Labs/Lab_5/stubs/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab_5/stubs/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab_5/stubs/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab_5/stubs/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab_5/stubs/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab_5/stubs/Shape.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +199,7 @@
       <workItem from="1622227387704" duration="6345000" />
       <workItem from="1622575101586" duration="18024000" />
       <workItem from="1624999929553" duration="20000" />
-      <workItem from="1624999994517" duration="12960000" />
+      <workItem from="1624999994517" duration="13348000" />
     </task>
     <task id="LOCAL-00001" summary="Test.java - Finally getting it to work through terminal for class 1">
       <created>1621302907660</created>
@@ -469,7 +453,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624609318086</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Lab_5 - Working">
+      <created>1625013088016</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1625013088016</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -513,7 +504,8 @@
     <MESSAGE value="Assignment_2 push - Latest Update (12;30)" />
     <MESSAGE value="Changes by silve" />
     <MESSAGE value="Assignment_2 push - Latest Update (01:06) Working" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assignment_2 push - Latest Update (01:06) Working" />
+    <MESSAGE value="Lab_5 - Working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab_5 - Working" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

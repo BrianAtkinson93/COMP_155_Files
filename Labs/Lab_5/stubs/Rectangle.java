@@ -33,6 +33,12 @@ public class Rectangle extends Shape {
 
     public boolean equals(Shape other) {
         //INSERT YOUR CODE HERE
+        /**
+         * Here i'm checking to make sure that the location is the same
+         * if the Width and the Length are the same
+         * if one of them is not then the method will return FALSE
+         * otherwise TRUE
+         */
         return other.getLocation().getX() == this.getLocation().getX() && other.getLocation().getY() == this.getLocation().getY() && this.getLength() == ((Rectangle) other).getLength() && this.getWidth() == ((Rectangle) other).getWidth();
     }
 

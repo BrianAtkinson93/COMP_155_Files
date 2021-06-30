@@ -20,7 +20,12 @@ public abstract class Shape {
     }
 
     public boolean isLeftOf(Shape other) {
-
+        /**
+         * Here i'm checking if the Y coordinates
+         * If the current location is lesser the other
+         * location then returns TRUE
+         * otherwise returns FALSE
+         */
         if (other == null) {
             return false;
         } else {
@@ -32,6 +37,12 @@ public abstract class Shape {
     public boolean isRightOf(Shape other) {
 
         //INSERT YOUR CODE HERE - Hint from isLeftOf(...)
+        /**
+         * Here i'm checking if the x coordinates
+         * If the current location is greater the other
+         * location then returns TRUE
+         * otherwise returns FALSE
+         */
         if (other == null) {
             return false;
         } else {
@@ -43,6 +54,12 @@ public abstract class Shape {
     public boolean isAbove(Shape other) {
 
         //INSERT YOUR CODE HERE - Hint from isLeftOf(...)
+        /**
+         * Here i'm checking if the Y coordinates
+         * If the current location is greater the other
+         * location then returns TRUE
+         * otherwise returns FALSE
+         */
         if (other == null) {
             return false;
         } else {
@@ -54,6 +71,12 @@ public abstract class Shape {
     public boolean isBelow(Shape other) {
 
         //INSERT YOUR CODE HERE - Hint from isLeftOf(...)
+        /**
+         * Here i'm checking if the Y coordinates
+         * If the current location is lesser the other
+         * location then returns TRUE
+         * otherwise returns FALSE
+         */
         if (other == null) {
             return false;
         } else {
@@ -65,6 +88,11 @@ public abstract class Shape {
     public boolean isAtSamePointAs(Shape other) {
 
         //INSERT YOUR CODE HERE - Hint from isLeftOf(...)
+        /**
+         * Here i'm checking if the Y and X coordinates
+         * are the same, if they are then returns
+         * TRUE otherwise it returns FALSE
+         */
         if (other == null) {
             return false;
         } else {

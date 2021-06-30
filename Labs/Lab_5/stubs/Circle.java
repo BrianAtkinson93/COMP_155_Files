@@ -22,6 +22,10 @@ public class Circle extends Shape {
 
     public boolean equals(Shape other) {
         //INSERT YOUR CODE HERE
+        /**
+         * Here i'm checking to make sure that the location is the same and the radius is the same
+         * if one of them is not then the method will return FALSE otherwise TRUE
+         */
         return this.getLocation().getX() == other.getLocation().getX() && this.getLocation().getY() == other.getLocation().getY() && this.radius == ((Circle) other).getRadius();
     }
 
