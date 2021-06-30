@@ -33,11 +33,19 @@ public class Point {
 
     public boolean equals(Point other) {
         //INSERT YOUR CODE HERE
+        /**
+         * checking if the current points (X,Y)
+         * are the same as the other (X,Y) is yes
+         * returns TRUE otherwise returns FALSE
+         */
         return other.x == this.x && other.y == this.y;
     }
 
     public String toString() {
         //INSERT YOUR CODE HERE
+        /**
+         * output to user
+         */
         return "Point [x: " + x + ", y: " + y + "]";
     }
 }

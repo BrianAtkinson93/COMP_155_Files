@@ -44,6 +44,9 @@ public class Rectangle extends Shape {
 
     public String toString() {
         //INSERT YOUR CODE HERE
+        /**
+         * output to user
+         */
         return "Rectangle [x: " + this.getLocation().getX() + ", y: " + this.getLocation().getY() + "; length: " + length + ", width: " + width + "]";
     }
 }

@@ -31,6 +31,9 @@ public class Circle extends Shape {
 
     public String toString() {
         //INSERT YOUR CODE HERE
+        /**
+         * output to the user
+         */
         return "Circle [x: " + this.getLocation().getX() + ", y: " + this.getLocation().getY()  + "; radius: " + radius + "]";
     }
 }
