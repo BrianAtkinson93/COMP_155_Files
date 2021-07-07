@@ -44,25 +44,30 @@ public class Student implements Comparable<Student> {
         this.age = age;
     }
 
+    /**
+     * This method checks to see if the variables
+     * are the same; student numbers, ages and names
+     * if they are then the boolean will return true
+     * or else it will return false.
+     * */
     public boolean equals(Student other) {
         //INSERT YOUR CODE HERE
 
         return this.studentNumber == other.getStudentNumber() && this.age == other.age && this.name.equals(other.name);
     }
 
+    /**
+     * Here I created a conditional situation where there is
+     * a check to see if both names are the same length or
+     *  if they are different lengths. IF they are the same
+     *  then the method returns 0, IF it is less then it
+     *    returns -1 and IF it is greater then it will
+     *     return +1.
+     *     */
     public int compareTo(Student other) {
 
         //INSERT YOUR CODE HERE
-        String name1 = this.getName();
-        String name2 = other.getName();
-
-        if( name1.equals(name2))
-            return 0;
-        else if( name1.length() > name2.length())
-            return -1;
-        else if (name2.length() > name1.length())
-            return +1;
-        return 0;
+        return this.name.compareTo(other.name);
     }
 
     public String toString() {

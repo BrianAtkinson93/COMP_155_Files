@@ -4,35 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="106e9d5f-3ad7-4061-89a6-fccd019bc6a1" name="Default Changelist" comment="Lab_5 - Working (notes added)">
-      <change afterPath="$PROJECT_DIR$/Assignments/ZIPS/Brian_Atkinson_300088157_Assignment_1.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/ZIPS/Brian_Atkinson_300088157_Assignment_2.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab_5/stubs_300088157_Lab_5.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab_6/stubs/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab_6/stubs/GradeLab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab_6/stubs/Lab6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab_6/stubs/QualityAssurance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab_6/stubs/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab_6/stubs/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab_6/stubs/stubs/Account.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab_6/stubs/stubs/GradeLab.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab_6/stubs/stubs/Lab6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab_6/stubs/stubs/QualityAssurance.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab_6/stubs/stubs/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab_6/stubs/stubs/Utils.class" afterDir="false" />
+    <list default="true" id="106e9d5f-3ad7-4061-89a6-fccd019bc6a1" name="Default Changelist" comment="Lab_6 - Working">
+      <change afterPath="$PROJECT_DIR$/Assignments/Brian_Atkinson_300088157_Assignment_2.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab_6/stubs_300088157_Lab_6 (2).zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab_6/stubs_300088157_Lab_6.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/COMP_155_Files.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/COMP_155_Files.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/Utility.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/Utility.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/file/CSVReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/file/CSVReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/Deduction.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/payroll/Deduction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Brian_Atkinson_300088157.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/Lab_5/stubs/Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/Lab_5/stubs/TestShapes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/Lab_5/stubs/stubs/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab_5/stubs/stubs/Circle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/Lab_5/stubs/stubs/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab_5/stubs/stubs/Point.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/Lab_5/stubs/stubs/QualityAssurance.class" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab_5/stubs/stubs/QualityAssurance.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/Lab_5/stubs/stubs/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab_5/stubs/stubs/Rectangle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/Lab_5/stubs/stubs/Shape.class" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab_5/stubs/stubs/Shape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Location.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Location.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab_6/stubs/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab_6/stubs/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab_6/stubs/QualityAssurance.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab_6/stubs/QualityAssurance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab_6/stubs/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab_6/stubs/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab_6/stubs/stubs/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab_6/stubs/stubs/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Labs/Lab_6/stubs/stubs/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab_6/stubs/stubs/Student.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +124,7 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/Assignments/Assignment_1/canadian" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -203,13 +187,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -243,7 +229,8 @@
       <workItem from="1625013701818" duration="939000" />
       <workItem from="1625070577353" duration="1487000" />
       <workItem from="1625513927598" duration="78000" />
-      <workItem from="1625514024432" duration="5626000" />
+      <workItem from="1625514024432" duration="10125000" />
+      <workItem from="1625675796747" duration="5111000" />
     </task>
     <task id="LOCAL-00001" summary="Test.java - Finally getting it to work through terminal for class 1">
       <created>1621302907660</created>
@@ -518,7 +505,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625013584067</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Lab_6 - Working">
+      <created>1625519699146</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1625519699146</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,7 +532,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Test.java - 2" />
     <MESSAGE value="Test.java - 3" />
     <MESSAGE value="Practice_1" />
     <MESSAGE value="Practice_2 &amp; 3" />
@@ -563,7 +556,8 @@
     <MESSAGE value="Assignment_2 push - Latest Update (01:06) Working" />
     <MESSAGE value="Lab_5 - Working" />
     <MESSAGE value="Lab_5 - Working (notes added)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab_5 - Working (notes added)" />
+    <MESSAGE value="Lab_6 - Working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab_6 - Working" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

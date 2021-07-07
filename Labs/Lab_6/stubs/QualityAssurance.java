@@ -8,6 +8,7 @@ public class QualityAssurance {
 	
 	
 	//testing Point object
+
 	public static boolean[] Q1() {
 
 		boolean [] answer = new boolean[6];

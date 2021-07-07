@@ -45,22 +45,34 @@ public class Account implements Comparable<Account> {
         this.balance = balance;
     }
 
+    /**
+     * This method checks to see if the variables
+     * are the same; account numbers, names and
+     * balances, if they are then the boolean will
+     * return true or else it will return false.
+     */
     public boolean equals(Account other) {
         //INSERT YOUR CODE HERE
         return this.accountNumber == other.getAccountNumber() && this.name.equals(other.name) && this.balance == other.getBalance();
     }
 
+    /**
+     * Here I created a conditional situation where there is
+     * a check to see if both account numbers are the same
+     * or if they are different. IF they are the same then
+     * then the method returns 0, IF it is less then it
+     * returns -1 and IF it is greater then it will
+     * return +1.
+     */
     public int compareTo(Account other) {
 
         //INSERT YOUR CODE HERE
-        if(this.accountNumber == other.getAccountNumber())
-            return 0;
-        else if(this.accountNumber < other.getAccountNumber())
-            return -1;
-        else if (this.accountNumber > other.getAccountNumber())
-            return +1;
-        return 0;    }
+        return Integer.compare(this.accountNumber, other.getAccountNumber());
+    }
 
+    /**
+     * Simple, to string statement
+     */
     public String toString() {
         //INSERT YOUR CODE HERE
         return "Account number: " + this.getAccountNumber() + ", Name: " + this.getName() + ", Balance: " + this.getBalance();
