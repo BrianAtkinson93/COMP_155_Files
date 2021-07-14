@@ -33,6 +33,7 @@ public class LinkedStack<E> implements Stack<E> {
         return top == null;
     }
 
+
     // Here we simply print out the items to the user.
     public void display() {
         int i = 0;
