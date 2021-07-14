@@ -33,12 +33,19 @@ public class LinkedStack<E> implements Stack<E> {
         return top == null;
     }
 
+    // Here we simply print out the items to the user.
     public void display() {
-        for (int i = 0; i < 5; i++) {
-            System.out.println("element[" + i + "] = " + pop());
+        int i = 0;
+        for (Elem<E> iterator = top; iterator != null; iterator = iterator.next) {
+            System.out.println("element[" + i + "] = " + iterator.value);
+            i++;
         }
     }
 
+    // here we search the stack for the parameter
+    // without popping so we retain the stack. The
+    // boolean returns true if the parameter is
+    // found otherwise the boolean returns false
     public boolean hasElement(E element) {
         for (Elem<E> iterator = top; iterator != null; iterator = iterator.next) {
             if (iterator.value.equals(element)) {

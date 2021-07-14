@@ -42,12 +42,17 @@ public class ArrayStack<E> implements Stack<E> {
         return elements.length;
     }
 
+    // Here we simply print out the items to the user.
     public void display() {
         for (int i = 0; i < size(); i++) {
-            System.out.println("elements[" + i + "]: " + pop());
+            System.out.println("elements[" + i + "]: " + elements[top - i - 1]);
         }
     }
 
+    // here we search the stack for the parameter
+    // without popping so we retain the stack. The
+    // boolean returns true if the parameter is
+    // found otherwise the boolean returns false
     public boolean hasElement(E element) {
         for (E e : elements) {
             if (e.equals(element)) {
