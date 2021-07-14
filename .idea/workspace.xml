@@ -4,20 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="106e9d5f-3ad7-4061-89a6-fccd019bc6a1" name="Default Changelist" comment="Lab_6 - Working">
-      <change afterPath="$PROJECT_DIR$/Assignments/Brian_Atkinson_300088157_Assignment_2.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab_6/stubs_300088157_Lab_6 (2).zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab_6/stubs_300088157_Lab_6.zip" afterDir="false" />
+    <list default="true" id="106e9d5f-3ad7-4061-89a6-fccd019bc6a1" name="Default Changelist" comment="Assignment_2 push - Latest Update (01:06) Working">
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_3/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_3/CSVReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_3/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_3/GradeAssignment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_3/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_3/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_3/QualityAssurance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_3/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_3/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_3/Tracker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_3/Tracker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_3/Utility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab_7/ArrayStack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab_7/ArrayStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab_7/GradeLab.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab_7/GradeLab.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab_7/LinkedStack$Elem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab_7/LinkedStack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab_7/LinkedStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab_7/QualityAssurance.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab_7/QualityAssurance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab_7/Stack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab_7/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab_7/TestStack.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Labs/Lab_7/TestStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/COMP_155_Files.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/COMP_155_Files.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Location.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Location.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/Lab_6/stubs/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab_6/stubs/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/Lab_6/stubs/QualityAssurance.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab_6/stubs/QualityAssurance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/Lab_6/stubs/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab_6/stubs/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/Lab_6/stubs/stubs/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab_6/stubs/stubs/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/Lab_6/stubs/stubs/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab_6/stubs/stubs/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Address.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_2/tracker/objects/Address.java" afterDir="false" />
     </list>
+    <list id="b9596dab-5636-44fc-a752-e980cd55d57d" name="Changes by silve" comment="Changes by silve" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,27 +143,25 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.proportion" value="0.21269095" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="shared-indexes" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Assignments/Assignment_3" />
+      <recent name="$PROJECT_DIR$/Labs/Lab_7" />
       <recent name="C:\Users\brian\Documents\GitHub\COMP_155_Files\In_Class_Practice\Week_1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lab6">
-    <configuration name="Lab6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stubs.Lab6" />
-      <module name="COMP_155_Files" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stubs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="Application.Test">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -167,19 +183,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestShapes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stubs.TestShapes" />
-      <module name="COMP_155_Files" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stubs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main" />
       <module name="COMP_155_Files" />
@@ -187,23 +190,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Lab6" />
-        <item itemvalue="Application.TestShapes" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.main" />
         <item itemvalue="Application.Main" />
@@ -224,13 +212,6 @@
       <workItem from="1621987411541" duration="4256000" />
       <workItem from="1622227387704" duration="6345000" />
       <workItem from="1622575101586" duration="18024000" />
-      <workItem from="1624999929553" duration="20000" />
-      <workItem from="1624999994517" duration="13477000" />
-      <workItem from="1625013701818" duration="939000" />
-      <workItem from="1625070577353" duration="1487000" />
-      <workItem from="1625513927598" duration="78000" />
-      <workItem from="1625514024432" duration="10125000" />
-      <workItem from="1625675796747" duration="5111000" />
     </task>
     <task id="LOCAL-00001" summary="Test.java - Finally getting it to work through terminal for class 1">
       <created>1621302907660</created>
@@ -477,42 +458,7 @@
       <option name="project" value="LOCAL" />
       <updated>1624609034720</updated>
     </task>
-    <task id="LOCAL-00036" summary="Assignment_2 push - Latest Update (01:06) Working">
-      <created>1624609318086</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1624609318086</updated>
-    </task>
-    <task id="LOCAL-00037" summary="Lab_5 - Working">
-      <created>1625013088016</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1625013088016</updated>
-    </task>
-    <task id="LOCAL-00038" summary="Lab_5 - Working (notes added)">
-      <created>1625013474868</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1625013474868</updated>
-    </task>
-    <task id="LOCAL-00039" summary="Lab_5 - Working (notes added)">
-      <created>1625013584067</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1625013584067</updated>
-    </task>
-    <task id="LOCAL-00040" summary="Lab_6 - Working">
-      <created>1625519699146</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1625519699146</updated>
-    </task>
-    <option name="localTasksCounter" value="41" />
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -532,6 +478,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Test.java - Finally getting it to work through terminal for class 1" />
+    <MESSAGE value="Test.java - 2" />
     <MESSAGE value="Test.java - 3" />
     <MESSAGE value="Practice_1" />
     <MESSAGE value="Practice_2 &amp; 3" />
@@ -552,12 +500,9 @@
     <MESSAGE value="Lab_4 - Complete" />
     <MESSAGE value="Assignment_2 push" />
     <MESSAGE value="Assignment_2 push - Latest Update (12;30)" />
-    <MESSAGE value="Changes by silve" />
     <MESSAGE value="Assignment_2 push - Latest Update (01:06) Working" />
-    <MESSAGE value="Lab_5 - Working" />
-    <MESSAGE value="Lab_5 - Working (notes added)" />
-    <MESSAGE value="Lab_6 - Working" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab_6 - Working" />
+    <MESSAGE value="Changes by silve" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes by silve" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -572,8 +517,5 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/COMP_155_Files$Test.ic" NAME="Test Coverage Results" MODIFIED="1621302769512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/COMP_155_Files$TestShapes.ic" NAME="TestShapes Coverage Results" MODIFIED="1625010265471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>stubs.*</FILTER>
-    </SUITE>
   </component>
 </project>
