@@ -250,6 +250,7 @@
       <workItem from="1625513927598" duration="78000" />
       <workItem from="1625514024432" duration="10125000" />
       <workItem from="1625675796747" duration="5111000" />
+      <workItem from="1626275176787" duration="577000" />
     </task>
     <task id="LOCAL-00001" summary="Test.java - Finally getting it to work through terminal for class 1">
       <created>1621302907660</created>
@@ -531,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625519699146</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Lab_7 - Working">
+      <created>1626275482720</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1626275482720</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -551,7 +559,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Test.java - 3" />
     <MESSAGE value="Practice_1" />
     <MESSAGE value="Practice_2 &amp; 3" />
     <MESSAGE value="Practice_4 - Multi-dimensional Arrays" />
@@ -576,7 +583,8 @@
     <MESSAGE value="Lab_5 - Working" />
     <MESSAGE value="Lab_5 - Working (notes added)" />
     <MESSAGE value="Lab_6 - Working" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab_6 - Working" />
+    <MESSAGE value="Lab_7 - Working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab_7 - Working" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
