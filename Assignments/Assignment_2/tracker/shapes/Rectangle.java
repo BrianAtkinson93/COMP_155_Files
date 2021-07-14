@@ -6,9 +6,7 @@
 
 package tracker.shapes;
 
-import tracker.objects.*;
-
-import java.awt.*;
+import tracker.objects.Location;
 
 public class Rectangle extends Shape {
 
@@ -64,14 +62,14 @@ public class Rectangle extends Shape {
 
     public boolean equals( Rectangle other ) {
 
-        /**
+        /*
          * Here we use the getters to verify that the
          *  variables are the same for quality assurance.*/
         return other.width == this.width && other.length == this.length;
     }
 
     public String toString() {
-        /**
+        /*
          * Preparing output for rectangle length and width
          */
         return "Rectangle: [length: " + length + ", width: " + width + ", " + getCentrePoint() + "]" ;

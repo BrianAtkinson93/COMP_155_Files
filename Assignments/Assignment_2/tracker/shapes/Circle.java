@@ -6,9 +6,7 @@
 
 package tracker.shapes;
 
-import tracker.objects.*;
-
-import java.awt.*;
+import tracker.objects.Location;
 
 public class Circle extends Shape {
 
@@ -38,7 +36,7 @@ public class Circle extends Shape {
 
     public double area() {
 
-        /**
+        /*
          * Basic math here for calculating area
          */
         return Math.round(PI * (radius * radius) * 100.0) / 100.0;
@@ -46,7 +44,7 @@ public class Circle extends Shape {
 
     public double perimeter() {
 
-        /**
+        /*
          * Basic math for calculating perimeter
          */
         return Math.round((2 * PI * radius) * 100.0) / 100.0;
@@ -55,7 +53,7 @@ public class Circle extends Shape {
 
     public Rectangle boundingRectangle() {
 
-        /**
+        /*
          * basic math here for finding a square around a circle
          */
         return new Rectangle(2.0 * radius, 2.0 * radius, getCentrePoint());
@@ -63,7 +61,7 @@ public class Circle extends Shape {
 
     public boolean equals(Circle other) {
 
-        /**
+        /*
          * Here we prepare are filling in the code for comparison
          *  for the quality assurance check.
          */
@@ -71,7 +69,7 @@ public class Circle extends Shape {
     }
 
     public String toString() {
-        /**
+        /*
          * Here we prepare our radius and longitude/latitude output
          */
         return "Circle: [radius: " + radius + ", " + getCentrePoint() + "]";

@@ -1,3 +1,5 @@
+import java.util.Iterator;
+
 public class LinkedStack<E> implements Stack<E> {
 
     //definition of an inner class
@@ -40,8 +42,14 @@ public class LinkedStack<E> implements Stack<E> {
     }
 
     public boolean hasElement(E element) {
+        for (Elem<E> current = top; current != null; current = current.next) {
+            if (current.value.equals(element)) {
+                return true;
+            }
+        }
         return false;
     }
+
 
     public void push(E obj) {
         top = new Elem<E>(obj, top);

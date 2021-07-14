@@ -117,26 +117,35 @@ public class Address {
     private static String formatProvince(String provinceOrFederal) {
 
         provinceOrFederal = provinceOrFederal.toLowerCase();
-        return switch (provinceOrFederal) {
-            case "ontario", "on" -> "ON";
-            case "Manitoba", "mb" -> "MB";
-            case "british columbia", "bc" -> "BC";
-            case "new brunswick", "nb" -> "NB";
-            case "alberta", "ab" -> "AB";
-            case "saskatchewan", "sk" -> "SK";
-            case "nova scotia", "ns" -> "NS";
-            case "quebec", "qc" -> "QC";
-            default -> "federal";
-        };
+        if( provinceOrFederal.equals( "ontario" ) || provinceOrFederal.equals( "on" ) ) {
+            return "ON";
+        } else if( provinceOrFederal.equals( "Manitoba" ) || provinceOrFederal.equals( "mb" ) ) {
+            return "MB";
+        } else if( provinceOrFederal.equals( "british columbia" ) || provinceOrFederal.equals( "bc" ) ) {
+            return "BC";
+        } else if( provinceOrFederal.equals( "new brunswick" ) || provinceOrFederal.equals( "nb" ) ) {
+            return "NB";
+        } else if( provinceOrFederal.equals( "alberta" ) || provinceOrFederal.equals( "ab" ) ) {
+            return "AB";
+        } else if( provinceOrFederal.equals( "saskatchewan" ) || provinceOrFederal.equals( "sk" ) ) {
+            return "SK";
+        } else if( provinceOrFederal.equals( "nova scotia" ) || provinceOrFederal.equals( "ns" ) ) {
+            return "NS";
+        } else if( provinceOrFederal.equals( "quebec" ) || provinceOrFederal.equals( "qc" ) ) {
+            return "QC";
+        } else {
+            return "federal";
+        }
     }
 
     private String typeToString() {
 
-        return switch (this.type) {
-            case BUSINESS -> "BUSINESS";
-            case OFFICE -> "OFFICE";
-            case HOME -> "HOME";
-        };
+        switch( type ) {
+            case BUSINESS : return "BUSINESS";
+            case OFFICE : return "OFFICE";
+            case HOME : return "HOME";
+            default : return "";
+        }
     }
 
     public boolean equals(Address address) {

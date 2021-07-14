@@ -14,7 +14,7 @@ public class Person {
     private String name;
     private double age;
     private Sex sex = Sex.UNKNOWN;
-    private List<tracker.objects.Address> addresses = new ArrayList<tracker.objects.Address>();
+    private List<tracker.objects.Address> addresses = new ArrayList<>();
     private Status status = Status.UNKNOWN;
 
     //constructors
@@ -106,22 +106,22 @@ public class Person {
 
     private String sexToString() {
 
-        return switch (sex) {
-            case MALE -> "MALE";
-            case FEMALE -> "FEMALE";
-            default -> "UNKNOWN";
-        };
+        switch( sex ) {
+            case MALE : return "MALE";
+            case FEMALE : return "FEMALE";
+            default : return "UNKNOWN";
+        }
     }
 
     private String statusToString() {
 
-        return switch (status) {
-            case POSITIVE -> "POSITIVE";
-            case NEGATIVE -> "NEGATIVE";
-            case SYMPTOMATIC -> "SYMPTOMATIC";
-            case ASYMPTOMATIC -> "ASYMPTOMATIC";
-            default -> "UNKNOWN";
-        };
+        switch( status ) {
+            case POSITIVE : return "POSITIVE";
+            case NEGATIVE : return "NEGATIVE";
+            case SYMPTOMATIC : return "SYMPTOMATIC";
+            case ASYMPTOMATIC : return "ASYMPTOMATIC";
+            default : return "UNKNOWN";
+        }
     }
 
     public boolean equals(Person person) {
