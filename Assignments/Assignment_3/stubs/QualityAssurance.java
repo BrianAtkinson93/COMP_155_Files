@@ -1,14 +1,4 @@
-/*Code Authored by:
-***Dr. Opeyemi Olusegun Adesina
-***School of Computing, University of the Fraser Valley, Abbotsford - Canada
-***All rights reserved - For reuse purposes, please contact Dr. Adesina at [opeyemi.adesina@ufv.ca]
-**/
-
-import tracker.objects.*;
-import tracker.shapes.*;
 import java.util.*;
-import tracker.Utility;
-import tracker.file.*;
 
 public class QualityAssurance {
 	
@@ -37,7 +27,7 @@ public class QualityAssurance {
 
 		boolean [] answer = new boolean[7];
 		//testing default constructor
-		Location loc1 = new Location();
+		Location loc1;
 		loc1 = new Location( 2.345678, 3.98756 );
 		Circle c1 = new Circle();
 		Circle c2 = new Circle(0.0, new Location(0.0, 0.0));
@@ -62,8 +52,6 @@ public class QualityAssurance {
 
 		boolean [] answer = new boolean[6];
 		//testing default constructor
-		Location loc1 = new Location();
-		loc1 = new Location( 2.345678, 3.98756 );
 		Rectangle r1 = new Rectangle();
 		Rectangle r2 = new Rectangle(0.0, 0.0, new Location(0.0, 0.0));
 		answer[0] = r1.equals( r2 );
@@ -133,7 +121,7 @@ public class QualityAssurance {
 		addr1.setProvince("Quebec");
 		addr1.setType(Address.Type.BUSINESS);
 		addr1.setCountry("Canada");
-		List<Address> addresses = new ArrayList<Address>();
+		List<Address> addresses = new ArrayList<>();
 		addresses.add( addr1 );
 		p1.setAddresses( addresses );
 		p2.setAddresses( addresses );
@@ -147,19 +135,19 @@ public class QualityAssurance {
 		addr2.setPostalCode("V2T 0H9");
 		addr2.setProvince("British Columbia");
 		addr2.setCountry("Canada");
-		List<Address> addresses2 = new ArrayList<Address>();
+		List<Address> addresses2 = new ArrayList<>();
 		addresses2.add( addr2 );
 		p2.setAddresses( addresses2 );
 		answer[2] = !( p1.equals( p2 ) );
 		
-		addresses = new ArrayList<Address>();
+		addresses = new ArrayList<>();
 		addresses.add( addr1 );
 		addresses.add( addr2 );
 		p1.setAddresses( addresses );
 		p2.setAddresses( addresses );
 		answer[3] = p1.equals( p2 );
 
-		addresses2 = new ArrayList<Address>();
+		addresses2 = new ArrayList<>();
 		addresses2.add( addr2 );
 		addresses2.add( addr1 );
 		p2.setAddresses( addresses2 );
@@ -174,13 +162,13 @@ public class QualityAssurance {
 		answer[7] = p1.getSex() == Person.Sex.MALE;
 		answer[8] = p1.getStatus() == Person.Status.NEGATIVE;
 		
-		Location loc1 = new Location();
+		Location loc1;
 		loc1 = new Location( 2.345678, 3.98756 );
 		p2 = new Person(101, "Opeyemi Adesina", 21.0, Person.Sex.MALE, Person.Status.NEGATIVE, addresses, loc1 );
 		p1.setLocation( loc1 );
 		
 		answer[9] = !( p1.equals( p2 ) );
-		addresses2 = new ArrayList<Address>();
+		addresses2 = new ArrayList<>();
 		addresses2.add( addr1 );
 		addresses2.add( addr2 );
 		p2.setAddresses( addresses2 );

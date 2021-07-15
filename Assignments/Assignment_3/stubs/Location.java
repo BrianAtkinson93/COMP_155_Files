@@ -5,45 +5,51 @@
 **/
 
 public class Location {
-	
+
 	//instance variables
 	double longitude, latitude;
-	
+
 	//default constructor
 	public Location() {
 		//INSERT YOUR CODE HERE...
+		this.longitude = 0.0D;
+		this.latitude = 0.0D;
 	}
-	
+
 	//parameterized constructor
 	public Location( double longitude, double latitude ) {
 		//INSERT YOUR CODE HERE...
+		this.longitude = longitude;
+		this.latitude = latitude;
 	}
-	
+
 	public double getLongitude() {
 		//INSERT YOUR CODE HERE...
-		return 0.0;
+		return longitude;
 	}
-	
+
 	public double getLatitude() {
 		//INSERT YOUR CODE HERE...
-		return 0.0;
+		return latitude;
 	}
-	
+
 	public void setLongitude( double longitude ) {
 		//INSERT YOUR CODE HERE...
+		this.longitude = longitude;
 	}
-	
+
 	public void setLatitude( double latitude ) {
 		//INSERT YOUR CODE HERE...
+		this.latitude = latitude;
 	}
-	
+
 	public boolean equals( Location other ) {
-		
+
 		//INSERT YOUR CODE HERE...
-		
-		return false;
+
+		return other.latitude == this.latitude && other.longitude == this.longitude;
 	}
-	
+
 	public String toString() {
 		return "Located at: [longitude: " + longitude +", latitude: " + latitude +"]";
 	}

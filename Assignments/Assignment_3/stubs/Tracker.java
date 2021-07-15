@@ -4,15 +4,8 @@
 ***All rights reserved - For reuse purposes, please contact Dr. Adesina at [opeyemi.adesina@ufv.ca]
 **/
 
-import tracker.test.QualityAssurance;
-import tracker.test.GradeAssignment;
-import tracker.objects.Location;
-import tracker.shapes.*;
-import tracker.objects.Address;
-import tracker.objects.Person;
-import java.util.*;
-import tracker.file.CSVReader;
-import tracker.Utility;
+
+import java.util.Map;
 
 class Tracker {
 	

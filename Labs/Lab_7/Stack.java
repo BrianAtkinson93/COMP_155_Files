@@ -8,3 +8,4 @@ public interface Stack<E> {
 	//return true whenever element is found on the stack, otherwise it returns false.
 	boolean hasElement( E element ); 
 }
+

@@ -4,28 +4,29 @@
 ***All rights reserved - For reuse purposes, please contact Dr. Adesina at [opeyemi.adesina@ufv.ca]
 **/
 
-import java.io.*;
-import tracker.objects.*;
-import java.util.*;
-/*import canadian.payroll.*;
-import tracker.Utility;*/
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.util.ArrayList;
+import java.util.Hashtable;
+import java.util.List;
+import java.util.Map;
 
 
 public class CSVReader {
 	
-	//Converts a CSV file into its Hastable equivalent
+	//Converts a CSV file into its Hashtable equivalent
 	public static Map<Integer, Person> parsePersons( String fileName, String addressFile ) {
 		
-		String line = "", splitChar = ",";
+		String splitChar = ",";
 		Map<Integer, Person> persons = new Hashtable<>();
 		Map<Integer, Address> addresses = parseAddresses( addressFile );
 		try {
 			FileReader file = new FileReader( fileName );
 			BufferedReader reader = new BufferedReader( file );
-			line = reader.readLine();
+			String line = reader.readLine();
 			while( line != null ) {
 				
-				//Retrieving and spliting each line into its respective fields
+				//Retrieving and splitting each line into its respective fields
 				String [] tokens = line.split( splitChar );
 				String identity = tokens[0].trim(),
 					name = tokens[1].trim(),
@@ -51,18 +52,18 @@ public class CSVReader {
 		return persons;
 	}
 
-	//Converts a CSV file into its Hastable equivalent
+	//Converts a CSV file into its Hashtable equivalent
 	public static Map<Integer, Address> parseAddresses( String fileName ) {
 		
-		String line = "", splitChar = ",";
+		String splitChar = ",";
 		Map<Integer, Address> addresses = new Hashtable<>();
 		try {
 			FileReader file = new FileReader( fileName );
 			BufferedReader reader = new BufferedReader( file );
-			line = reader.readLine();
+			String line = reader.readLine();
 			while( line != null ) {
 				
-				//Retrieving and spliting each line into its respective fields
+				//Retrieving and splitting each line into its respective fields
 				line = line.replace( '\"', '\0' );
 				String [] tokens = line.split( splitChar );
 				String address_id = tokens[0].trim(),
@@ -72,8 +73,9 @@ public class CSVReader {
 					addressType = tokens[6].trim();
 
 					String [] temp = tokens[1].split( "-" );
-					int houseNumber = 0, streetNumber = 0;
-					if( temp.length > 1 ) {
+					int houseNumber = 0;
+				int streetNumber;
+				if( temp.length > 1 ) {
 						houseNumber = Integer.parseInt( temp[0].trim() );
 						streetNumber = Integer.parseInt( temp[1].trim() );
 					} else {

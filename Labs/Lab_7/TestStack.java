@@ -4,7 +4,7 @@ public class TestStack {
 		
 		Stack<Integer> linkedStack = new LinkedStack<>();
 
-		long start, stop, elapsed, loopSize = 100000;
+		long start, stop, elapsed, loopSize = 1000000;
 		start = System.currentTimeMillis();
 		for( int i = 0; i < loopSize; i ++ ) {
 			linkedStack.push( i );
