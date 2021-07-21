@@ -144,6 +144,8 @@ public class Person {
 
         Map<Integer, Person> neighbours = new HashMap<>();
         //INSERT YOUR CODE HERE...
+        // If the status of the person is Positive or Asymptomatic
+        // then we conduct the if loop of finding their neighbours
         if(this.getStatus() == Status.POSITIVE || this.getStatus() == Status.ASYMPTOMATIC) {
 
             double rightBound = this.getLocation().getLatitude() + radius;

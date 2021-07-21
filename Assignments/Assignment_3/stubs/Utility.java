@@ -43,8 +43,8 @@ public class Utility {
 
     public static Map<Integer, Person> initiate() {
 
-        String test_db = "stubs/data/test_db.csv";
-        String address_db = "stubs/data/addresses_db.csv";
+        String test_db = "data/test_db.csv";
+        String address_db = "data/addresses_db.csv";
 
         return CSVReader.parsePersons(test_db, address_db);
     }
