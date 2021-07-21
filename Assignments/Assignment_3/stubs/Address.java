@@ -173,6 +173,9 @@ public class Address {
         }
     }
 
+    // Here i implement a conditional statement...
+    // IF the address contains a unit number then do this,
+    // otherwise do this. I do this for homes without unit numbers
     public boolean equals(Address address) {
         //INSERT YOUR CODE HERE...
         if (this.getUnit() == 0) {
