@@ -14,9 +14,8 @@ class Tracker {
 		Map<Integer, Person> persons = Utility.initiate();
 		Person person = persons.get( 245679 );
 		Map<Integer, Person> neighbours = person.getNeighbours( 10, persons );
-		System.out.println("The neighbours of ... \n["+person+"] when operational-radius = 10.0 are as follow:\n");
+		System.out.println("The neighbours of ... \n"+person+" \nwhen operational-radius = 10.0 are as follow:\n\n");
 		Utility.display( neighbours );
-
 		boolean[] test = QualityAssurance.test();
 		GradeAssignment.grade( test );
 	}

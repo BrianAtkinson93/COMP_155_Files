@@ -43,7 +43,8 @@ public class Circle extends Shape {
 
     public Rectangle getBoundingRectangle() {
         double length = 2 * radius;
-        return new Rectangle(length, length, getCentrePoint());
+        double width = 2 * radius;
+        return new Rectangle(length, width, getCentrePoint());
     }
 
     public boolean equals(Circle other) {

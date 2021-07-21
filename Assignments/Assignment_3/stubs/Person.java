@@ -112,7 +112,7 @@ public class Person {
     public boolean equals(Person person) {
 
         //INSERT YOUR CODE HERE...
-        return person.getName().equals(this.name) && person.getAge() == this.age && person.getStatus().equals(this.getStatus()) && person.getSex().equals(this.getSex()) && person.getAddresses().toString().equals(this.getAddresses().toString());
+        return person.getName() == this.name && person.getAge() == this.age && person.getStatus().equals(this.getStatus()) && person.getSex().equals(this.getSex()) && person.getAddresses().toString().equals(this.getAddresses().toString());
     }
 
     /**
@@ -144,14 +144,30 @@ public class Person {
 
         Map<Integer, Person> neighbours = new HashMap<>();
         //INSERT YOUR CODE HERE...
+        if(this.getStatus() == Status.POSITIVE || this.getStatus() == Status.ASYMPTOMATIC) {
 
+            double rightBound = this.getLocation().getLatitude() + radius;
+            double leftBound = this.getLocation().getLatitude() - radius;
+            double topBound = this.getLocation().getLongitude() + radius;
+            double bottomBound =this.getLocation().getLongitude() - radius;
+
+
+            for (Map.Entry<Integer, Person> entry : allPersons.entrySet()) {
+                Location neighborLocation = entry.getValue().getLocation();
+                if ((neighborLocation.getLongitude() <= topBound && neighborLocation.getLongitude() >= bottomBound) &&
+                        (neighborLocation.getLatitude() <= rightBound && neighborLocation.getLatitude() >= leftBound) && (entry.getValue().getIdentity() != this.getIdentity())) {
+                    neighbours.put(entry.getKey(), entry.getValue());
+                }
+
+            }
+        }
         return neighbours;
     }
 
     public String toString() {
 
         //INSERT YOUR CODE HERE...
-        StringBuilder s = new StringBuilder("\nFULL NAME: " + name + "\nAge: " + age + " years\nSex: " + sex + "\nCovid-19 Status: " + status + "\nContact Address(es):");
+        StringBuilder s = new StringBuilder("\nID: " + identity + "\nFull Name: " + name + "\nAge: " + age + " years\nSex: " + sex + "\nCovid-19 Status: " + status + "\n" + getLocation() + "\nContact Address(es):");
         for (Address address : addresses) {
             s.append("\n").append(address.toString());
         }

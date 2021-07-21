@@ -4,51 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="106e9d5f-3ad7-4061-89a6-fccd019bc6a1" name="Default Changelist" comment="Lab_7 - Finished">
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Address$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Address$Type.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Address.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/CSVReader.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Circle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/GradeAssignment.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Location.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Person$Sex.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Person$Status.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/QualityAssurance.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Rectangle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Shape.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Tracker.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Utility.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Utility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/data/addresses_db.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/data/persons_db.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/data/test_db.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/300088157_Lab_7.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Labs/Lab_7/Results.txt" afterDir="false" />
+    <list default="true" id="106e9d5f-3ad7-4061-89a6-fccd019bc6a1" name="Default Changelist" comment="Assignment_3 - Just need to finish HashMaps">
+      <change afterPath="$PROJECT_DIR$/Assignments/Assignment_3/(instructions) OO Software Development - S21A3.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/COMP_155_Files.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/COMP_155_Files.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_3/Address.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_3/CSVReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/CSVReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_3/Circle.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_3/GradeAssignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/GradeAssignment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_3/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_3/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_3/QualityAssurance.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/QualityAssurance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_3/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_3/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_3/Tracker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_3/Tracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Tracker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_3/Utility.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/300088157_ Brian_Atkinson_Lab_1.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/Lab_7/ArrayStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab_7/ArrayStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/Lab_7/LinkedStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab_7/LinkedStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/Lab_7/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab_7/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/Lab_7/TestStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab_7/TestStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Labs/Lab_7/TestStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/Labs/Lab_7/TestStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_1/canadian/Utility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Address$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Address$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Address$Type.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Address$Type.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Address.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Location.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Location.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/QualityAssurance.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/QualityAssurance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/QualityAssurance.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/QualityAssurance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Rectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Tracker.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Tracker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Tracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Tracker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Utility.class" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Utility.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Assignment_3/stubs/Utility.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,6 +146,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\brian\Documents\GitHub\COMP_155_Files\Assignments\Assignment_3\stubs\data" />
       <recent name="C:\Users\brian\Documents\GitHub\COMP_155_Files\Assignments\Assignment_3\stubs" />
       <recent name="C:\Users\brian\Documents\GitHub\COMP_155_Files\Assignments\Assignment_3\stubs\tracker\test" />
       <recent name="C:\Users\brian\Documents\GitHub\COMP_155_Files\Assignments\Assignment_3\stubs\tracker" />
@@ -178,67 +157,23 @@
       <recent name="stubs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Tracker">
-    <configuration name="Lab6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stubs.Lab6" />
-      <module name="COMP_155_Files" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="COMP_155_Files" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestShapes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stubs.TestShapes" />
-      <module name="COMP_155_Files" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestStack" />
-      <module name="COMP_155_Files" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="Tracker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tracker" />
       <module name="COMP_155_Files" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value=".*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -246,10 +181,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Tracker" />
-        <item itemvalue="Application.TestStack" />
-        <item itemvalue="Application.Lab6" />
-        <item itemvalue="Application.TestShapes" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +207,8 @@
       <workItem from="1625675796747" duration="5111000" />
       <workItem from="1626275176787" duration="1292000" />
       <workItem from="1626298621246" duration="3122000" />
-      <workItem from="1626323583141" duration="8387000" />
+      <workItem from="1626323583141" duration="14582000" />
+      <workItem from="1626650329305" duration="11113000" />
     </task>
     <task id="LOCAL-00001" summary="Test.java - Finally getting it to work through terminal for class 1">
       <created>1621302907660</created>
@@ -586,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626276462682</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Assignment_3 - Just need to finish HashMaps">
+      <created>1626332137650</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1626332137650</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -606,7 +545,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Practice_2 &amp; 3" />
     <MESSAGE value="Practice_4 - Multi-dimensional Arrays" />
     <MESSAGE value="Practice_5 - Operators" />
     <MESSAGE value="Practice_5 - Converting Strings to numbers" />
@@ -631,7 +569,8 @@
     <MESSAGE value="Lab_6 - Working" />
     <MESSAGE value="Lab_7 - Working" />
     <MESSAGE value="Lab_7 - Finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab_7 - Finished" />
+    <MESSAGE value="Assignment_3 - Just need to finish HashMaps" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignment_3 - Just need to finish HashMaps" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -641,16 +580,12 @@
           <option name="timeStamp" value="9" />
         </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Assignments/Assignment_3/stubs/Shape.java</url>
-          <option name="timeStamp" value="10" />
+          <url>file://$PROJECT_DIR$/Assignments/Assignment_3/stubs/QualityAssurance.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <inline-watch fileUrl="file://$PROJECT_DIR$/Labs/Lab_7/QualityAssurance.java" line="22">
-        <watch expression="answer[3]" language="JAVA" />
-      </inline-watch>
-    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/COMP_155_Files$Test.ic" NAME="Test Coverage Results" MODIFIED="1621302769512" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
